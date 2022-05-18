@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+main {
+    min-width: 600px;
+}
+
 article {
     padding: 50px 20px 20px 20px;
     line-height: 2em;
@@ -21,6 +25,7 @@ section.imagem-fundo01 {
 
 section.imagem-fundo01 p {
     max-width: 570px;
+    display: block;
     padding: 15px 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
@@ -43,6 +48,7 @@ section.imagem-fundo02 {
 
 section.imagem-fundo02 p {
     max-width: 570px;
+    display: block;
     padding: 15px 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
