@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+article {
+    padding: 50px 20px 20px 20px;
+    line-height: 2em;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Sriracha', 'cursive';
+}
+
+section.imagem-fundo01 {
+    height: 725px;
+    padding: 50px 20px 20px 30px;
+    background-image: url('./imagens/background001.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 15px 0px rgba(0, 0, 0, 0.541);
+}
+
+section.imagem-fundo01 p {
+    max-width: 570px;
+    padding: 10px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    line-height: 2em;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Sriracha', 'cursive';
+}

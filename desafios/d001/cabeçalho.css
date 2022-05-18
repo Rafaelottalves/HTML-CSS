@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 8vw;
+    font-weight: normal;
+    font-family: 'Passion One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+header > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
