@@ -4,3 +4,60 @@
     margin: 0px;
     padding: 0px;
 }
+
+header {
+    padding: 15px;
+    background-color: #810000c4;
+}
+
+header > div#img-1 {
+    padding-top: 5px;
+    width: 100%;
+    position: relative;
+}
+
+header > nav {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
+
+nav > a {
+    width: 100%;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: #810000c4;
+    background-color: rgba(255, 255, 255, 0.877);
+    transition-duration: 0.5s;
+}
+
+main > section#bloco-1 {
+    background-image: url('./imagens/capas.jpg');
+    background-position: top center;
+}
+
+main > section#bloco-1 > div#cor-fundo-1 {
+    background-color: #0e1633fa;
+}
+
+div#cor-fundo-1 > p {
+    display: inline-block;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    font-size: 4vw;
+    vertical-align: middle;
+    color: white;
+}
+
+div#cor-fundo-1 > section#img-2 {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 90px;
+    vertical-align: middle;
+}
