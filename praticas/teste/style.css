@@ -50,6 +50,7 @@ div#cor-fundo-1 > p {
     padding-left: 110px;
     padding-bottom: 30px;
     font-size: 4vw;
+    line-height: 1.5em;
     font-weight: bold;
     vertical-align: middle;
     color: white;
@@ -69,6 +70,7 @@ div#cor-fundo-1 > a {
     left: 205px;
     padding: 10px;
     font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
     color: white;
     background-color: #a83636c4;
@@ -96,6 +98,7 @@ div#cor-fundo-2 > p {
     padding-left: 95px;
     font-size: 3.9vw;
     font-weight: bold;
+    line-height: 1.5em;
     vertical-align: middle;
     color: white;
 }
@@ -115,6 +118,7 @@ div#cor-fundo-2 > a {
     top: 805px;
     left: 855px;
     font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
     color: white;
     background-color: #a83636c4;
@@ -138,7 +142,7 @@ main > section#bloco-3 > div#cor-fundo-3 {
 div#cor-fundo-3 > section#img-4 {
     display: inline-block;
     padding-left: 150px;
-    padding-top: 165px;
+    padding-top: 155px;
     vertical-align: middle;
 }
 
@@ -149,6 +153,7 @@ div#cor-fundo-3 > p#espec-1 {
     vertical-align: middle;
     font-size: 3.5vw;
     font-weight: bold;
+    line-height: 1.5em;
     color: white;
 }
 
@@ -158,6 +163,7 @@ div#cor-fundo-3 > a {
     left: 245px;
     padding: 10px;
     font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
     color: white;
     background-color: #a83636c4;
@@ -183,6 +189,50 @@ div#cor-fundo-4 > section#img-5 {
     padding-top: 115px;
 }
 
-div#cor-fundo-4 > p {
-    
+div#cor-fundo-4 > p#titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+div#cor-fundo-4 > section#stream {
+    padding: 15px 10px 10px 0px;
+    text-align: center;
+}
+
+div#cor-fundo-4 > p#fim {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 2.3em;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #050913;
+}
+
+footer > p#lvl1 {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 560px;
+}
+
+footer > p#lvl2 {
+    display: inline-block;
+    font-size: 1.1em;
+    padding-left: 230px;
+}
+
+footer > p#lvl2 a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p#lvl2 a:hover {
+    text-decoration: underline;
 }
