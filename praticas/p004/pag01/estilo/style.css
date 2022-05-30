@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 15px;
+    background-color: #810000c4;
+}
+
+header > nav {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
+
+nav > a {
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: #810000c4;
+    background-color: rgba(255, 255, 255, 0.877);
+    transition-duration: 0.5s;
+}
+
+main > section#bloco-1 {
+    background-image: url('./../imagens/capas/capas.jpg');
+    background-position: top center;
+}
+
+
+main > section#bloco-1 > div#cor-fundo-1 {
+    background-color: #0e1633fb;
+}
+
+div#cor-fundo-1 > p {
+    display: inline-block;
+    padding-left: 115px;
+    padding-bottom: 30px;
+    font-size: 4vw;
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    color: white;
+}
+
+div#cor-fundo-1 > section#img-1 {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 90px;
+    vertical-align: middle;
+}
+
+div#cor-fundo-1 > a {
+    display: block;
+    position: absolute;
+    bottom: 125px;
+    left: 199px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #a83636c4;
+}
+
+div#cor-fundo-1 > a:hover {
+    color: #0e1633fb;
+    background-color: rgba(255, 255, 255, 0.877);
+    transition-duration: 0.5s;
+}
+
+main > section#bloco-2 {
+    background-image: url('./../imagens/capas/capas-3.jpg');
+    background-position: top center;
+}
+
+main > section#bloco-2 > div#cor-fundo-2 {
+    background-image: linear-gradient(to bottom, #0E1633fb, #080E20fb);
+}
+
+div#cor-fundo-2 > p {
+    display: inline-block;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 100px;
+    font-size: 3.9vw;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    vertical-align: middle;
+    color: white;
+}
+
+div#cor-fundo-2 > section#img-2 {
+    display: inline-block;
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 275px;
+    vertical-align: middle;
+}
+
+div#cor-fundo-2 > a {
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 805px;
+    left: 866px;
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #a83636c4;
+}
+
+div#cor-fundo-2 > a:hover {
+    color: #0e1633fb;
+    background-color: rgba(255, 255, 255, 0.877);
+    transition-duration: 0.5s;
+}
+
+main > section#bloco-3 {
+    background-image: url('./../imagens/capas/capas.jpg');
+    background-position: top center;
+}
+
+main > section#bloco-3 > div#cor-fundo-3 {
+    background-image: linear-gradient(to bottom, #080e20fb, #060b18fd);
+}
+
+div#cor-fundo-3 > section#img-3 {
+    text-align: center;
+    padding-top: 170px;
+}
+
+div#cor-fundo-3 > p#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+div#cor-fundo-3 > section#stream {
+    padding: 15px 10px 10px 0px;
+    text-align: center;
+}
+
+div#cor-fundo-3 > p#fim {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 2.3em;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    color: rgb(221, 221, 221);
+    background-color: #050a14fb;
+}
+
+footer > p#lvl1 {
+    display: inline-block;
+    font-size: 1.2em;
+    padding-left: 560px;
+}
+
+footer > p#lvl2 {
+    display: inline-block;
+    font-size: 1.1em;
+    padding-left: 230px;
+}
+
+footer > p#lvl2 a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p#lvl2 a:hover {
+    text-decoration: underline;
+}
