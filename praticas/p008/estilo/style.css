@@ -7,6 +7,94 @@
 * {
     margin: 0;
     padding: 0;
+
+    list-style: none;
+    text-decoration: none; 
+}
+
+:root {
+    --font-primary: 'Baloo Da 2', sans-serif;
+    --font-secundary: 'Josefin Slab', sans-serif;
+    --font-action: 'Mulish', sans-serif;
+}
+
+.hamburguer {
+    width: 2rem;
+    height: 2rem;
+
+    position: fixed;
+    z-index: 100;
+
+    top: 2rem;
+    right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.show-menu .hamburguer {
+    right: 16rem;
+}
+
+.line {
+    width: 100%;
+    height: .1rem;
+
+    background-color: #fff;
+
+    box-shadow: 0.1rem 0.1rem 1px #000;
+
+    transition: transform .5s;
+}
+
+.show-menu #line1{
+    transform: rotate(45deg) translate(0.2rem, +.3rem);
+}
+
+.show-menu #line2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-menu #line3{
+    transform: rotate(-45deg) translate(0.2rem, -.5rem);
+}
+
+.hamburguer span {
+    width: 6rem;
+    height: 2rem;
+
+    position: absolute;
+    left: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-action);
+
+    color: #fff;
+    background-color: #a044ff;
+    opacity: 0;
+}
+
+.hamburguer span::before {
+    content: '';
+    position: absolute;
+    border-right: .5rem solid #a044ff;
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    left: -1rem;
+}
+
+.show-menu .hamburguer:hover span {
+    opacity: 1;
 }
 
 header {
@@ -45,14 +133,112 @@ header {
     color: #fff;
 
     font-size: 3.5rem;
-    font-family: 'Baloo Da 2', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 200;
 
-    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
+    text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
 
     line-height: 3.5rem;
+
+    margin-bottom: 2rem;
 }
 
 .banner > p {
+    color: #fff;
 
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+
+    text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
+
+    margin-bottom: 2rem;
+}
+
+.banner button {
+    color: white;
+    background-image: linear-gradient(to left, #a044ff, #6a3093);
+
+    font-family: var(--font-action);
+    text-transform: uppercase;
+
+    letter-spacing: .1rem;
+
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 20rem;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    right: -20rem;
+
+    transition: all .5s;
+
+    background-color: white;
+}
+
+.show-menu .sidebar {
+    right: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.menu-link {
+    font-family: var(--font-action);
+    font-size: 2rem;
+
+    color: #555;
+
+    transition: color .5s;
+}
+
+.menu-link:hover {
+    color: #6a3093;
+}
+
+.social-media {
+    position: absolute;
+
+    bottom: 2rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media i {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 255, 255, 1);
+    background-color: #6a3093;
+    transition: background-color .5s;
+
+    border-radius: 50%;
+}
+
+.social-media i:hover {
+    background-color: #a044ff;
 }
