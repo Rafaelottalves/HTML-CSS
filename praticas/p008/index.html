@@ -9,7 +9,7 @@
     <title>Portfólio</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="hamburguer">
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
@@ -25,18 +25,18 @@
             <h1>Web Developer & Front End Designer</h1>
             <p>Rafael ott alves</p>
 
-            <button>Saiba mais</button>
+            <button class="btn">Saiba mais</button>
         </section>
     </header>
 
     <aside class="sidebar">
         <nav>
             <ul class="menu">
-                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#final" class="menu-link">Rodapé</a></li>
             </ul>
         </nav>
 
@@ -50,7 +50,7 @@
     </aside>
 
     <main>
-        <section class="sessao-conhecimentos">
+        <section id="conhecimentos" class="sessao-conhecimentos">
             <section class="sessao-header">
                 <h1>Conhecimentos</h1>
             </section>
@@ -133,7 +133,7 @@
             </section>
         </section>
 
-        <section class="sessao-projetos">
+        <section id="projetos" class="sessao-projetos">
             <section class="sessao-header">
                 <h1>Projetos</h1>
             </section>
@@ -159,7 +159,7 @@
             </section>
         </section>
 
-        <section class="sessao-contato">
+        <section id="contato" class="sessao-contato">
             <div class="contato-wrapper">
                 <div class="contato-left"><img src="./img/contato.jpg" alt=""></div>
 
@@ -184,12 +184,30 @@
 
                             <label for="mensagem" class="field-label">Mensagem</label>
                         </div>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer id="final">
+        <section class="footer-content">
+            <p>Copyright &copy: 2020, ETECIA DS - Todos os direitos reservados</p>
+
+            <section class="social-list">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+    <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 </body>
 
 <script src="script.js"></script>
