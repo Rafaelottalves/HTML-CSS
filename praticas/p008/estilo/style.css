@@ -27,7 +27,7 @@ html {
     height: 2rem;
 
     position: fixed;
-    z-index: 100;
+    z-index: 200;
 
     top: 2rem;
     right: 2rem;
@@ -432,7 +432,6 @@ header {
     width: 65%;
     background-color: #eee;
     box-sizing: border-box;
-    /*padding: ;*/
 }
 
 .sessao-contato h1 {
