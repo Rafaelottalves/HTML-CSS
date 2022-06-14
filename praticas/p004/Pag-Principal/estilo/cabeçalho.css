@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
 * {
     margin: 0px;
@@ -8,18 +10,21 @@
 }
 
 :root {
-    /*cores e fontes*/
+    --font-header: 'Kanit', sans-serif;
+
+    --cor-header: #fff;
+    --cor-fundo-header: #05395C;
 }
 
 .cabeçalho {
-    background-color: rgb(37, 63, 63);
+    background-color: var(--cor-fundo-header);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 100vw;
-    height: 80px;
+    height: 90px;
     box-sizing: border-box;
 }
 
@@ -42,16 +47,17 @@
 
 .cabeçalho-item-lista a {
     text-decoration: none;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
     padding: 35px 15px 25px 15px;
     font-size: 1.1em;
+    font-weight: bold;
     
-    
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    font-family: var(--font-header);
+    color: var(--cor-header);
 }
 
 .cabeçalho-item-lista a:hover {
-    color: white;
+    color: var(--cor-header);
     border-bottom: 3px solid white;
 }
 
@@ -184,7 +190,7 @@
     }
 }
 
-@media (max-width: 293px) {
+@media (max-width: 294px) {
     .cabeçalho {
         width: 100%;
         min-width: 294px;
