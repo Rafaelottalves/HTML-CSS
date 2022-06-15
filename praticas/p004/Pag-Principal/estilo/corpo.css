@@ -1,5 +1,93 @@
 @charset "UTF-8";
 
+:root {
+    --font-main: 'Signika Negative', sans-serif;
+}
+
 main {
     box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+.capa {
+    width: 100%;
+    height: 465px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #44776d;
+}
+
+.container-capa {
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 465px;
+
+    display: grid;
+    grid-template-columns: repeat(20, 55px);
+    grid-template-rows: repeat(15, 31px);
+}
+
+.texto-capa {
+    width: 100%;
+    height: 100%;
+
+    grid-column: 1/10;
+    grid-row: 2/12;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-family: var(--font-main);
+    font-size: 3.5em;
+    font-weight: bold;
+
+    line-height: 1.5em;
+    letter-spacing: 2px;
+
+    color: #fff;
+
+    text-shadow: -20px 20px 5px rgb(0 0 0 / 29%);
+}
+
+.img-capa {
+    width: 600px;
+    height: 360px;
+
+    grid-column: 10/20;
+    grid-row: 2/12;
+}
+
+.botao-capa {
+    width: 100%;
+    height: 100%;
+
+    grid-column: 1/10;
+    grid-row: 12/16;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;  
+}
+
+.botao-capa a {
+    font-size: 1.3em;
+    text-decoration: none;
+
+    padding: 15px;
+    border-radius: 3px;
+
+    color: #fff;
+    background-color: darkred;
+
+    text-shadow: -2px 3px 5px #00000050;
+    box-shadow: -20px 20px 12px rgba(0, 0, 0, 0.342);
+}
+
+.botao-capa a:hover {
+    background-color: rgba(139, 0, 0, 0.781);
 }
