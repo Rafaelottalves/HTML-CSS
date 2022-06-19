@@ -314,7 +314,8 @@ main {
 }
 
 .planos {
-    width: 920px;
+    width: 100%;
+    max-width: 920px;
     height: 34px;
 
     margin: 0 auto;
