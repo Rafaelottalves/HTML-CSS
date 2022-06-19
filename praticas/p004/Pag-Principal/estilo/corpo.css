@@ -198,6 +198,8 @@ main {
     width: 100%;
     height: 100%;
 
+    padding-bottom: 70px;
+
     display: flex;
     justify-content: center;
 
@@ -266,8 +268,6 @@ main {
 }
 
 .box-1 {
-    border-bottom-left-radius: 3px;
-
     background-color: rgba(0, 0, 0, 0.856);
 
     box-shadow: inset 0px 11px 15px #0000003b;
@@ -302,8 +302,6 @@ main {
 }
 
 .box-4 {
-    border-bottom-right-radius: 3px;
-
     background-color: #0101a1d5;
 
     box-shadow: inset 0px 11px 15px #0000003b;
@@ -313,4 +311,36 @@ main {
     width: 145px;
 
     opacity: .9;
+}
+
+.planos {
+    width: 920px;
+    height: 34px;
+
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.planos .botao-str {
+    padding: 5px 431px;
+
+    font-size: 1.1em;
+    font-family: var(--font-main-botao);
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.botao-str:hover {
+    color: rgba(255, 255, 255, 0.651);
 }

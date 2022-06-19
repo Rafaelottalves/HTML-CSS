@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+footer {
+    background-color: red;
+}
+
+.rodape {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    background-color: #243f3a;
+}
+
+.container-rodape {
+    width: 100%;
+    max-width: 855px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+}
+
+.container-rodape p {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    color: white;
+}
+
+.container-rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-rodape a:hover {
+    text-decoration: underline;
+}
