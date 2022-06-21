@@ -10,13 +10,19 @@
     font-size: 1em;
 }
 
+body {
+    background-color: rgb(226, 226, 226);
+}
+
 .bloco {
     width: 100%;
+    height: 100%;
+
+    display: flex;
 }
 
 .bloco-esquerda {
     width: 45%;
-    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -80,27 +86,90 @@
     background-image: linear-gradient(to right, #ED5563, #F5631A);
 }
 
-.conteudo {
+.bloco-direita {
+    width: 55%;
+
+    display: grid;
+    grid-template-columns: repeat(53, 14px);
+    grid-template-rows: repeat(37, 15px);
+}
+
+.container-branding {
+    grid-column: 1/25;
+    grid-row: 10/28;
+}
+
+.container-animation {
+    grid-column: 1/25;
+    grid-row: 33/37;
+}
+
+.container-design {
+    grid-column: 25/53;
+    grid-row: 5/28;
+}
+
+.container-photography {
+    grid-column: 25/53;
+    grid-row: 28/37;
+}
+
+.container-conteudo-direita {
     width: 285px;
-    height: 350px;
+    height: 320px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     border-radius: 15px;
 
-    background-color: rgb(253, 214, 167);
+    background-color: white;
+
+    box-shadow: 0px 0px 20px 6px #00000014;
+}
+
+.container-conteudo-direita:hover {
+    cursor: default;
+    
+    background-image: linear-gradient(to right, #ED5563, #F5631A);
 }
 
 .icone {
-    font-size: 2.3em;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+    font-size: 2.5em;
+
+    color: #ED5563;
+}
+
+.container-conteudo-direita:hover .icone {
+    color: white;
 }
 
 .titulo-bloco {
+    margin-bottom: 25px;
+
     font-size: 1.5em;
+}
+
+.container-conteudo-direita:hover .titulo-bloco {
+    color: white;
 }
 
 .descricao {
     width: 250px;
 
+    margin-bottom: -30px;
+
     font-size: 1.1em;
 
-    line-height: 1.5em;
+    line-height: 2em;
+
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.container-conteudo-direita:hover .descricao {
+    color: white;
 }
