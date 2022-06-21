@@ -86,6 +86,10 @@ body {
     background-image: linear-gradient(to right, #ED5563, #F5631A);
 }
 
+.botao-esquerdo a:hover {
+    background-image: linear-gradient(to right, #be434f, #a1400f);
+}
+
 .bloco-direita {
     width: 55%;
 
