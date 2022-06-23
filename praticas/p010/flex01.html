@@ -5,11 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        
+        .container {
+            width: 500px;
+            height: 500px;
+
+            display: flex;
+
+            background-color: darkgrey;
+        }
+
+        p {
+            width: 100px;
+            height: 110px;
+
+            text-align: center;
+
+            margin: 5px;
+        }
+
+        .p1 {
+            background-color: blue;
+            flex-basis: 20em;
+        }
+
+        .p2 {
+            background-color: red;
+        }
+
+        .p3 {
+            background-color:brown;
+        }
+
+        .p4 {
+            background-color: aqua;
+        }
     </style>
-    <title>Flex-box</title>
+    <title>Flex-box 1</title>
 </head>
 <body>
+    <div class="container">
+        <p class="p p1">box-1</p>
 
+        <p class="p p2">box-2</p>
+
+        <p class="p p3">box-3</p>
+
+        <p class="p p4">box-4</p>
+    </div>
 </body>
 </html>
