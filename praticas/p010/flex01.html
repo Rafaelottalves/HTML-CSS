@@ -13,13 +13,17 @@
         }
 
         .container {
-            width: 300px;
+            width: 500px;
             height: 500px;
 
             display: flex;
-            align-content: flex-start;
-            flex-wrap: wrap;
-            gap: 70px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            align-content: center;
+            row-gap: 10px;
+            column-gap: 30px;
 
             padding: 2px;
 
@@ -39,14 +43,25 @@
         }
 
         .bloco-1 {
+            flex-grow: 0;
+            flex-basis: auto;
+            align-self: flex-start;
+
             background-color: rgb(146, 247, 213);
         }
 
         .bloco-2 {
+            flex-grow: 0;
+            flex-basis: auto;
+            align-self: flex-end;
+            
             background-color: rgb(185, 99, 228);
         }
 
         .bloco-3 {
+            flex-grow: 0;
+            flex-basis: auto;
+            
             background-color: rgb(182, 60, 60);
         }
     </style>
@@ -57,11 +72,15 @@
         <div class="bloco bloco-1">1</div>
         <div class="bloco bloco-2">2</div>
         <div class="bloco bloco-3">3</div>
-        <div class="bloco">4</div>
-        <div class="bloco">5</div>
-        <div class="bloco">6</div>
-        <div class="bloco">7</div>
-        <div class="bloco">8</div>
+        <!-- <div class="bloco bloco-3">4</div>
+        <div class="bloco bloco-1">5</div>
+        <div class="bloco bloco-2">6</div>
+        <div class="bloco bloco-3">7</div>
+        <div class="bloco bloco-1">8</div>
+        <div class="bloco bloco-1">9</div>
+        <div class="bloco bloco-3">10</div>
+        <div class="bloco bloco-2">11</div>
+        <div class="bloco bloco-2">12</div> -->
     </main>
 </body>
 </html>
