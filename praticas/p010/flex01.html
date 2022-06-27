@@ -11,10 +11,54 @@
 
             box-sizing: border-box;
         }
+
+        .container {
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            "logo     menu     menu     menu    menu"
+            "sidebar sidebar conteudo conteudo conteudo"
+            "sidebar sidebar rodape    rodape   rodape";
+        }
+
+        .grid-item {
+            border: 1px solid black;
+            grid-area: ;
+
+            background-color: rgb(122, 122, 201);
+        }
     </style>
     <title>Flex-box 1</title>
 </head>
 <body>
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item">
+                <p>Menu</p>
+            </div>
 
+            <div class="grid-item">
+                <p>logo</p>
+            </div>
+
+            <div class="grid-item">
+                <p>sidebar</p>
+            </div>
+
+            <div class="grid-item">
+                <p>conteudo</p>
+            </div>
+
+            <div class="grid-item">
+                <p>rodape</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
