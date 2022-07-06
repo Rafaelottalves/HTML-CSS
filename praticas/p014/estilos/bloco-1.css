@@ -1,0 +1,75 @@
+
+.container-capa {
+    width: 100vw;
+    height: 98vh;
+
+    margin-top: -3px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background: rgb(235, 235, 235) url('../../p011/imagens/fundo-cortada.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.container-desc {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icone-topo {
+    margin: 65px 0px 30px 0px;
+
+    font-size: 5.7rem;
+
+    transform: rotate(10deg);
+
+    opacity: .65;
+}
+
+.titulo {
+    margin-bottom: 10px;
+    
+    font-size: 5.5rem;
+    letter-spacing: 3px;
+}
+
+.subtitulo {
+    margin-bottom: 65px;
+
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.container-icones {
+    width: 460px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icone-twitch {
+    width: 42px;
+}
+
+.container-img {
+    width: 40vw;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.container-img img {
+    width: 460px;
+}
