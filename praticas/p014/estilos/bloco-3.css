@@ -1,0 +1,40 @@
+
+.container-img-canal {
+    width: 90vw;
+    height: 45vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.img-canal {
+    position: absolute;
+
+    border: 1px solid rgba(172, 172, 172, 0.74);
+}
+
+.canal-lives-alanzoka {
+    top: 65px;
+    right: 245px;
+
+    z-index: 1;
+}
+
+.canal-alanzoka {
+    top: 17px;
+    left: 255px;
+
+    z-index: 0;
+    opacity: .6;
+}
+
+.canal-alanzoka:hover {
+    z-index: 2;
+    opacity: 1;
+}
