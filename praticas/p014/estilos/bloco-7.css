@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #51447B;
+}
+
+.container-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-top: .125rem solid #00a6e5;
+
+    background-color: #171330;
+    border-radius: .188rem;
+}
+
+.contato h2 {
+    margin-bottom: 15px;
+
+    font-size: 2.3rem;
+
+    color: #fff;
+}
+
+.contato p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.cupom-1 {
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.cupom-2 {
+    margin-bottom: 25px;
+}
+
+.patrocinio-cupom {
+    text-align: center;
+    font-size: 1.8rem;
+
+    color: #fff;
+}
