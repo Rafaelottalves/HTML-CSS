@@ -35,7 +35,7 @@
 }
 
 .titulo-tamanho-azul {
-    font-size: 2.625rem;
+    font-size: 2.125rem;
     color: #00a6e5;
 }
 
@@ -46,8 +46,8 @@
 }
 
 .video-tamanho {
-    width: 18.75rem;
-    height: 12.5rem;
+    width: 17.75rem;
+    height: 11.5rem;
 
     border-radius: 0.188rem;
 }
