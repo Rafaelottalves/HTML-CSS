@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #51447B;
+}
+
+.container-twitch {
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 auto;
+}
+
+.link-twitch:hover {
+    text-decoration: underline;
+}
+
+.clip {
+    width: 600px;
+    height: 400px;
+}
