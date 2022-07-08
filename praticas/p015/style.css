@@ -1,1 +1,92 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+
+    opacity: .5;
+    position: relative;
+
+    background-image: url('img/img-fundo.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.info {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+}
+
+.info h1 {
+    margin-top: 140px;
+
+    text-align: center;
+
+    font-size: 4rem;
+    font-family: 'PT Serif', serif;
+
+    color: white;
+}
+
+.naveg {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.lista-naveg {
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    border-bottom: 2px solid white;
+}
+
+.lista-naveg li {
+    margin-bottom: 10px;
+}
+
+.lista-naveg a {
+    padding: 10px;
+
+    font-size: 1.7rem;
+
+    color: #fff;
+}
+
+.lista-naveg a:hover {
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, .3);
+}
