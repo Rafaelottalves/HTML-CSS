@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'punk';
+    src: url('font/CFPunkisnotDead-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'old';
+    src: url('font/old_stamper.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'army';
+    src: url('font/ARMY\ RUST.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +25,80 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    opacity: .7;
+
+    background-image: url('img/fundo.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+}
+
+.naveg {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-naveg {
+    width: 700px;
+    height: 100%;
+
+    margin-right: 55px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-naveg a {
+    padding: 10px;
+
+    letter-spacing: 4px;
+
+    font-size: 1.5rem;
+    font-family: 'punk', sans-serif;
+
+    transition: .3s ease-out;
+
+    color: white;
+}
+
+.lista-naveg a:hover {
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, .8);
+}
+
+.titulo {
+    margin-top: 150px;
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    font-size: 4.5rem;
+    font-family: 'old', 'army', sans-serif;
+
+    color: white;
 }
