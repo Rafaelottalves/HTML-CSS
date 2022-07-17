@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+body {
+    color: white;
+    background-color: rgb(41, 38, 38);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+}
+
+.relogio, .horas, .minutos {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.minutos {
+    animation: girar-ponteiro 5s linear infinite;
+}
+
+.horas {
+    animation: girar-ponteiro 60s linear infinite;
+}
+
+@keyframes girar-ponteiro {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
