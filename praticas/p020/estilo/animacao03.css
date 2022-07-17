@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+svg {
+    animation: is-boucing 1s ease alternate;
+    width: 200px;
+}
+
+@keyframes is-boucing {
+    to {
+        transform: translateY(30px);
+    }
+}
