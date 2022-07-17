@@ -56,7 +56,7 @@ body {
 /* -------------------------------- */
 
 .naveg-geral {
-    height: 50px;
+    height: 55px;
 
     display: flex;
     align-items: center;
@@ -65,9 +65,9 @@ body {
 }
 
 .naveg-geral a {
-    padding: 14.5px;
+    padding: 16.5px;
 
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: white;
 }
 
