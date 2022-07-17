@@ -12,3 +12,43 @@
 body {
     font-family: sans-serif;
 }
+
+.header {
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+}
+
+.logo-geral {
+    width: 115px;
+    height: 100%;
+
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: blue; */
+}
+
+.local-logo {
+    font-size: 1.8rem;
+    color: rgb(238, 33, 26);
+}
+
+.titulo-logo {
+    font-size: 1.9rem;
+    color: rgb(238, 33, 26);
+}
+
+.lupa {
+    margin: 10px 25px 0px 0px;
+
+    font-size: 1.7rem;
+    color: #333333;
+}
