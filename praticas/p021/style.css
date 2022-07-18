@@ -143,10 +143,14 @@ body {
 
 /* -------------------------------- */
 
-.lugares-img {
-    padding: 70px 10px 30px 10px;
+.container-corpo {
+    padding: 70px 10px 0px 10px;
 
     background-color: rgb(236, 236, 236);
+}
+
+.bloco-lugares {
+    padding-bottom: 50px;
 }
 
 .info-lugares {
