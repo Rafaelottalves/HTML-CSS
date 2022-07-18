@@ -130,10 +130,9 @@ body {
 }
 
 .botao-viagem {
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 0px -95.5px;
     padding: 10px;
 
-    align-self: flex-start;
     font-size: 1.1rem;
     border-radius: 1px;
 
