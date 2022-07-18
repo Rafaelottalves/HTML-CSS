@@ -229,8 +229,10 @@ body {
     padding: 10px 20px;
     
     font-size: 1.12rem;
+    border-radius: 2px;
 
     color: rgb(49, 49, 49);
+    background-color: rgba(0, 0, 0, 0.062);
 }
 
 .bloco-email {
