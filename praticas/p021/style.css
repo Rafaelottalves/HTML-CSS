@@ -276,3 +276,52 @@ body {
     border: 1px solid rgb(182, 182, 182);
     font-size: 1.1rem;
 }
+
+/* -------------------------------- */
+
+.bloco-contato {
+    margin-top: 40px;
+}
+
+.bloco-contato h2 {
+    margin-bottom: 25px;
+
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+
+.bloco-contato > p {
+    margin-bottom: 25px;
+    font-size: 1.15rem;
+}
+
+.bloco-contato > .contato {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.bloco-contato > .contato p + p {
+    margin-top: 10px;
+}
+
+.bloco-contato > .contato > p i {
+    margin-right: 20px;
+    color: black;
+}
+
+.container-form {
+    margin-bottom: 15px;
+}
+
+.form-contato {
+    margin-bottom: 20px;
+}
+
+.bloco-contato a {
+    padding: 15px 25px;
+
+    font-size: 1.15rem;
+
+    color: white;
+    background-color: black;
+}
