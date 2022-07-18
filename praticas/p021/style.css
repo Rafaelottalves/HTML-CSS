@@ -281,6 +281,7 @@ body {
 
 .bloco-contato {
     margin-top: 40px;
+    padding-bottom: 30px;
 }
 
 .bloco-contato h2 {
@@ -324,4 +325,45 @@ body {
 
     color: white;
     background-color: black;
+}
+
+/* -------------------------------- */
+
+.rodape {
+    padding: 50px 10px 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(236, 236, 236), rgb(255, 255, 255));
+}
+
+.rodape h4 {
+    margin-bottom: 30px;
+
+    font-size: 1.6rem;
+    font-weight: lighter;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.rodape-naveg {
+    width: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.rodape-naveg i {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.rodape p, a{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.432);
+    margin-bottom: 40px;
 }
