@@ -11,6 +11,7 @@
 
 body {
     font-family: sans-serif;
+    color: rgb(43, 43, 43);
 }
 
 ::placeholder {
@@ -114,8 +115,6 @@ body {
     text-align: left;
     font-size: 1.1rem;
     font-weight: lighter;
-
-    color: rgb(44, 44, 44)
 }
 
 .container-form {
@@ -163,13 +162,10 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     text-transform: capitalize;
-
-    color: rgb(43, 43, 43);
 }
 
 .subtitulo-lugares {
     font-size: 1.2rem;
-    color: rgb(43, 43, 43);
 }
 
 .img-wrapper {
@@ -189,4 +185,50 @@ body {
     left: 15px;
 
     color: white;
+}
+
+/* -------------------------------- */
+
+.subtitulo {
+    font-size: .98rem;
+}
+
+.img-wrapper-container {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.margem {
+    margin-bottom: 20px;
+}
+
+.container-info {
+    margin-left: 10px;
+}
+
+.container-info h3 {
+    margin-bottom: 25px;
+
+    font-size: 1.45rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.info-preco {
+    margin-bottom: 25px;
+
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.info {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.container-info a {
+    padding: 10px 20px;
+    
+    font-size: 1.12rem;
+
+    color: rgb(49, 49, 49);
 }
