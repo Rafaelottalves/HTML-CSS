@@ -364,7 +364,7 @@ body {
     color: rgba(0, 0, 0, 0.603);
 }
 
-.rodape p, a{
+.rodape > p, .rodape a{
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.432);
     margin-bottom: 40px;
