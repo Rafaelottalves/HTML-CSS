@@ -350,16 +350,18 @@ body {
 
 .rodape-naveg {
     width: 145px;
+    height: 23px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 
     margin-bottom: 30px;
 }
 
 .rodape-naveg i {
     font-size: 1.5rem;
-    color: rgba(0, 0, 0, 0.432);
+    color: rgba(0, 0, 0, 0.603);
 }
 
 .rodape p, a{
