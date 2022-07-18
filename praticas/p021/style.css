@@ -364,8 +364,15 @@ body {
     color: rgba(0, 0, 0, 0.603);
 }
 
-.rodape > p, .rodape a{
+.rodape > p{
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.432);
     margin-bottom: 40px;
+}
+
+.rodape > p a {
+    text-decoration: underline;
+    font-size: 1rem;
+
+    color: rgba(0, 0, 0, 0.432);
 }
