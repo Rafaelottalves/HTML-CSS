@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    height: 80px;
+    height: 70px;
 
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@ body {
     width: 105px;
     height: 100%;
 
-    margin-left: 20px;
+    margin-left: 15px;
 
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ body {
 }
 
 .local-logo {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     color: rgb(238, 33, 26);
 }
 
@@ -52,16 +52,16 @@ body {
 }
 
 .lupa {
-    margin: 10px 35px 0px 0px;
+    margin: 10px 20px 0px 0px;
 
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #333333;
 }
 
 /* -------------------------------- */
 
 .naveg-geral {
-    height: 55px;
+    height: 53px;
 
     display: flex;
     align-items: center;
@@ -70,9 +70,9 @@ body {
 }
 
 .naveg-geral a {
-    padding: 16.5px;
+    padding: 16px 15.2px;
 
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color: white;
 }
 
