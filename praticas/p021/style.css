@@ -179,9 +179,9 @@ body {
 }
 
 .img-wrapper p {
-    bottom: 0;
-    color: white;
     position: absolute;
     bottom: 15px;
     left: 15px;
+
+    color: white;
 }
