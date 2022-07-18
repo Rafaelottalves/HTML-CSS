@@ -96,7 +96,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-color: rgb(228, 228, 228);
+    /* background-color: rgb(228, 228, 228); */
 }
 
 .titulo-viagem {
