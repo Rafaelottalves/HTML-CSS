@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root {
+    /* Cores */
+
+    --white: white;
+    --cor-1: #b3bbc1;
+    --cor-2: #aab2b9;
+    --cor-3: #818a91; 
+    --cor-4: #888888;
+    --cor-5: #48484c;
+    --cor-6: #404044;
+    --cor-7: #505cfd;
+    --black: black;
+    
+    /* Font-Size */
+
+    --size-1: 0.75rem; /*12px*/
+    --size-2: 0.875rem; /*14px*/
+    --size-3: 1rem; /*16px*/
+    --size-4: 1.125rem; /*18px*/
+    --size-5: 2.25rem; /*36px*/
+    --size-6: 3rem; /*48px*/
+    --size-7: 3.75rem; /*60px*/
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 50px 50px;
+}
+
+.botao {
+    padding: 14px 33px;
+    /* padding: 17px 35px; */
+
+    font-size: var(--size-2);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    line-height: 1.5;
+    letter-spacing: 0.23em;
+
+    border: 1px solid;
+    border-radius: 30px;
+
+    color: var(--white);
+    background-color: var(--cor-7);
+}
+
+.texto {
+    /* font-size: ;
+    font-family: ;
+    line-height: ;
+    color: ; */
+}
+
+/* 
+botoa - texto - subtitulo - subtitulo2 - icons - cards -   monthly - uppercase
+*/
