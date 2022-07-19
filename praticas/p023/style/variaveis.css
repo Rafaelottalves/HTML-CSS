@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+    /* Cores */
+
+    --white: white;
+    --cor-1: #b3bbc1;
+    --cor-2: #aab2b9;
+    --cor-3: #818a91; 
+    --cor-4: #888888;
+    --cor-5: #48484c;
+    --cor-6: #404044;
+    --cor-7: #505cfd;
+    --black: black;
+}
