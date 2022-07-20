@@ -179,6 +179,7 @@ section#vantagens > div img {
     font-size: var(--size-4);
     color: var(--cor-2);
     text-align: center;
+    margin-top: 5px;
 }
 
 .dados section div {
