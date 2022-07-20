@@ -32,6 +32,7 @@
     text-decoration: none;
     list-style: none;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navegacao-header {
@@ -41,7 +42,7 @@
     justify-content: space-between;
     align-items: center;
 
-    border-bottom: 1px solid var(--cor-1);
+    border-bottom: 1px solid #818a9175;
     
     background-color: var(--cor-7);
 }
@@ -66,11 +67,11 @@
 
 .navegacao-header nav {
     width: 400px;
+    margin-right: 145px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 145px;
 }
 
 .navegacao-header nav a {
@@ -91,4 +92,101 @@
 
 .navegacao-header nav a:first-child {
     border-bottom: 1px solid var(--white);
+}
+
+.capa-header {
+    height: 87.5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--white);
+    background-color: var(--cor-7);
+}
+
+.capa-header h1 {
+    margin-left: -50px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7.5rem;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103);
+}
+
+.capa-header h1:first-child {
+    margin-left: -150px;
+
+    font-size: 7rem;
+    line-height: 6rem;
+}
+
+.capa-header h1:first-child::before {
+    content: 'the';
+    vertical-align: super;
+
+    font-size: 2.5rem;
+    font-weight: lighter;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103);
+}
+
+.capa-header section {
+    width: 530px;
+
+    margin: 10px 0px 0px -510px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.capa-header section span {
+    width: 150px;
+    height: 3px;
+
+    margin-bottom: 58px;
+
+    background-color: var(--white);
+}
+
+.capa-header section h2 {
+    margin-bottom: 50px;
+
+    font-family: serif;
+    font-weight: lighter;
+
+    letter-spacing: 2px;
+    transform: skew(-17deg);
+}
+
+.capa-header a {
+    display: block;
+    border-radius: 50%;
+}
+
+.capa-header a:hover {
+    background-color: var(--white);
+}
+
+.capa-header a:hover i {
+    color: var(--cor-7);
+}
+
+.capa-header a div {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.capa-header a div i {
+    font-size: var(--size-4);
+    color: var(--white);
 }
