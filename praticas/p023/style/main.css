@@ -1,16 +1,44 @@
 @charset "UTF-8";
 
+:root {
+    /* Cores */
+
+    --white: white;
+    --cor-1: #b3bbc1;
+    --cor-2: #aab2b9;
+    --cor-3: #818a91; 
+    --cor-4: #888888;
+    --cor-5: #48484c;
+    --cor-6: #404044;
+    --cor-7: #505cfd;
+    --black: black;
+    
+    /* Font-Size */
+
+    --size-1: 0.75rem; /*12px*/
+    --size-2: 0.875rem; /*14px*/
+    --size-3: 1rem; /*16px*/
+    --size-4: 1.125rem; /*18px*/
+    --size-5: 2.25rem; /*36px*/
+    --size-6: 3rem; /*48px*/
+    --size-7: 3.75rem; /*60px*/
+}
+
 section#sobre {
-    width: 100%;
+    width: 90%;
     height: 100vh;
+
+    margin: 0 auto;
 
     display: flex;
     align-items: center;
 }
 
 section#sobre div {
-    width: 50vw;
+    width: 50%;
     height: 100vh;
+
+    margin-left: 80px;
 
     display: flex;
     align-items: center;
@@ -22,8 +50,37 @@ section#sobre div img {
 }
 
 section#sobre article {
-    width: 50vw;
+    width: 50%;
     height: 100vh;
 
-    background-color: rgb(173, 75, 75);
+    margin-left: 25px;
+}
+
+section#sobre article section {
+    width: 400px;
+    height: 90px;
+
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+    border-bottom: 3px solid var(--cor-7);
+}
+
+section#sobre article article {
+    width: 380px;
+}
+
+section#sobre article article p:first-child {
+    margin-bottom: 15px;
+}
+
+section#sobre article article p:not(:first-child) {
+    margin-bottom: 40px;
+
+    font-size: var(--size-2);
+    font-weight: bold;
+    
+    line-height: 1.8rem;
+    color: var(--cor-6);
 }

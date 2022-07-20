@@ -47,12 +47,25 @@
 }
 
 .texto {
-    font-size: var(--size-2);
+    font-size: var(--size-3);
     font-family: sans-serif;
     font-weight: 300;
 
-    line-height: 1.1285rem;
+    line-height: 1.8rem;
     color: var(--cor-4);
+}
+
+.titulo {
+    padding: 10px 0px;
+    font-size: var(--size-5);
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--cor-6);
+    letter-spacing: 1px;
+}
+
+.titulo-espec {
+    color: var(--cor-7);
 }
 
 .subtitulo {
@@ -67,7 +80,7 @@
 }
 
 .subtitulo-anterior {
-    font-size: var(--size-3);
+    font-size: var(--size-2);
     font-family: sans-serif;
     font-weight: 300;
 
