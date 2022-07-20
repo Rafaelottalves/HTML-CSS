@@ -35,6 +35,10 @@
     scroll-behavior: smooth;
 }
 
+.header {
+    margin-bottom: 50px;
+}
+
 .navegacao-header {
     height: 75px;
 

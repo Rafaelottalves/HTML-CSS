@@ -28,7 +28,7 @@ section#sobre {
     width: 90%;
     height: 100vh;
 
-    margin: 0 auto;
+    margin: 0px auto 50px auto;
 
     display: flex;
     align-items: center;
@@ -83,4 +83,113 @@ section#sobre article article p:not(:first-child) {
     
     line-height: 1.8rem;
     color: var(--cor-6);
+}
+
+/* ----------------------------------- */
+
+section#vantagens {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.container-vantagens {
+    width: 60%;
+    height: 100vh;
+}
+
+.container-vantagens article {
+    width: 670px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.container-vantagens section {
+    width: 600px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-vantagens section div {
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 10px;
+}
+
+.container-vantagens section div h3 {
+    margin-bottom: 8px;
+}
+
+.container-vantagens section div .lampada {
+    margin: 0px 8px 0px -34px;
+}
+
+.container-vantagens section div .alvo {
+    margin: 0px 8px 0px -45px;
+}
+
+.container-vantagens section div .terno {
+    margin: 0px 8px 0px -40px;
+}
+
+.container-vantagens section div .maos {
+    margin: 0px 8px 0px -55px;
+}
+
+section#vantagens > div {
+    width: 40%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section#vantagens > div img {
+    width: 85%;
+    height: 85%;
+
+    object-fit: cover;
+}
+
+/* ----------------------------------- */
+
+.dados {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var(--cor-6);
+}
+
+.dados section {
+    background-color: rgb(124, 42, 42);
+}
+
+.dados section p {
+
+}
+
+.dados section div {
+    display: flex;
+    background-color: rgb(40, 40, 99);
+}
+
+.dados section div i {
+    font-size: 3.3rem;
+}
+
+.dados section div p {
+
 }
