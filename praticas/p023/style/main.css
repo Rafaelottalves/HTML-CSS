@@ -214,7 +214,7 @@ section#vantagens > div img {
     flex-direction: column;
     align-items: center;
 
-    /* background-color: red; */
+    margin-bottom: 80px;
 }
 
 .planos article {
@@ -237,4 +237,51 @@ section#vantagens > div img {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+/* ----------------------------------- */
+
+.testemunhas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.testemunhas section {
+    width: 900px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+    background-color: blue;
+}
+
+.img-wrapper {
+    width: 180px;
+    border-radius: 50%;
+
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testemunhas section > div > p {
+    width: 450px;
+    margin-top: 50px;
+}
+
+.testemunhas section > div > div > p {
+    margin-left: 60px;
+}
+
+.testemunhas section > div > div > p:first-child {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
