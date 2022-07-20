@@ -91,6 +91,8 @@ section#vantagens {
     width: 100%;
     height: 100vh;
 
+    margin-bottom: 50px;
+
     display: flex;
     align-items: center;
 }
@@ -173,23 +175,65 @@ section#vantagens > div img {
     background-color: var(--cor-6);
 }
 
-.dados section {
-    background-color: rgb(124, 42, 42);
-}
-
 .dados section p {
-
+    font-size: var(--size-4);
+    color: var(--cor-2);
+    text-align: center;
 }
 
 .dados section div {
     display: flex;
-    background-color: rgb(40, 40, 99);
+    align-items: center;
 }
 
 .dados section div i {
-    font-size: 3.3rem;
+    font-size: var(--size-6);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.dados section div .icones-menor {
+    font-size: 2.5rem;
+    margin-left: -10px;
 }
 
 .dados section div p {
+    font-size: var(--size-6);
+    color: var(--white);
+    font-weight: bolder;
+}
 
+/* ----------------------------------- */
+
+.planos {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.planos article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.planos article p {
+    width: 750px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.planos section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }

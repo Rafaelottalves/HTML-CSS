@@ -145,8 +145,8 @@
 .card > div > div:first-child {
     width: 250px;
 
-    padding-bottom: 10px;
-    margin-top: 30px;
+    padding-bottom: 35px;
+    margin-top: 45px;
 
     text-align: center;
 
@@ -160,6 +160,8 @@
 
     text-transform: uppercase;
     letter-spacing: 1px;
+
+    margin-bottom: 20px;
 
     color: var(--white);
 }
@@ -177,6 +179,7 @@
 
 .card > div > p{
     margin-top: 15px;
+    margin-bottom: 10px;
 
     font-size: var(--size-7);
     font-weight: bolder;
@@ -190,14 +193,17 @@
 }
 
 .card-info {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 5px;
 }
 
 .card-info > p {
+    line-height: 2rem;
+
     font-size: var(--size-3);
     font-family: sans-serif;
     font-weight: lighter;
+    text-align: center;
 
     letter-spacing: 1px;
 
@@ -205,6 +211,6 @@
 }
 
 .card-botao {
-    margin-top: 25px;
+    margin-top: 30px;
     border: none;
 }
