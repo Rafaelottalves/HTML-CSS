@@ -70,7 +70,7 @@
 
 .bloco-1 div h4 {
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 
     font-size: var(--size-2);
     font-weight: lighter;
@@ -103,10 +103,17 @@
     margin: 0 auto;
     padding-top: 25px;
 
+    display: flex;
+    justify-content: space-between;
+
     font-size: var(--size-2);
 
     border-top: 1px solid var(--cor-5);
 
     color: var(--cor-4);
     /* background-color: blue; */
+}
+
+.footer .bloco-2 section i {
+    margin-right: 20px;
 }
