@@ -218,7 +218,7 @@ section#vantagens > div img {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 130px;
+    margin-bottom: 115px;
 }
 
 .planos article {
@@ -247,7 +247,7 @@ section#vantagens > div img {
 /* ----------------------------------- */
 
 .testemunhas {
-    padding-bottom: 130px;
+    padding-bottom: 120px;
 
     display: flex;
     flex-direction: column;
