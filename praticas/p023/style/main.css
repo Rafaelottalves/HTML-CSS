@@ -288,6 +288,10 @@ section#vantagens > div img {
     justify-content: space-evenly;
 }
 
+.planos section aside {
+    cursor: default;
+}
+
 .planos section aside:hover .borda {
     border: 1px solid var(--cor-4);
 }
