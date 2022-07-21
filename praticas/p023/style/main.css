@@ -193,7 +193,7 @@ section#vantagens > div img {
     margin-right: 10px;
     margin-bottom: 10px;
 
-    font-size: var(--size-6);
+    font-size: var(--size-5);
 }
 
 .dados section div .icones-menor {
@@ -202,7 +202,7 @@ section#vantagens > div img {
 }
 
 .dados section div p {
-    font-size: var(--size-6);
+    font-size: var(--size-5);
     font-weight: bolder;
 
     color: var(--white);
