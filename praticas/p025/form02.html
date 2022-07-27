@@ -9,26 +9,26 @@
     <title>Pratica 025 - Formularios-2</title>
 </head>
 <body>
-    <form method="get">
-        <fieldset>
-            <legend>Login</legend>
+    <form method="get" autocomplete="off">
+        <fieldset class="container-form">
+            <legend class="titulo-form">Login</legend>
 
-            <div>
-                <label for="email">E-mail: </label>
-                <input type="email" name="t-email" id="email">
+            <label class="desc-entrada" for="email">E-mail</label>
+            <input class="entrada email" type="email" name="t-email" id="email" required>
 
-                <label for="senha">Senha: </label>
-                <input type="password" name="t-senha" id="senha">
+            <label class="desc-entrada" for="senha">Senha</label>
+            <input class=" entrada senha" type="password" name="t-senha" id="senha" required minlength="8" maxlength="20">
+
+            <div class="info-complementar">
+                <div>
+                    <input type="checkbox" name="t-check" id="check" checked>
+                    <label for="check">Lembre de Mim</label>
+                </div>
+
+                <a class="rec-senha" href="#">Esqueceu a Senha?</a>
             </div>
 
-            <div>
-                <input type="checkbox" name="t-check" id="check" checked>
-                <label for="check">Lembre de Mim</label>
-
-                <a href="#">Esqueceu a Senha?</a>
-            </div>
-
-            <input type="submit" value="Enviar">
+            <input class="botao-enviar" type="submit" value="Enviar">
         </fieldset>
     </form>
 </body>

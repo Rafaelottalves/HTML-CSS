@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form03.css">
+
+    <title>Pratica 025 - Formularios</title>
+</head>
+<body>
+    <form method="post" autocomplete="off">
+        <fieldset class="container-form">
+            <legend class="titulo-form">Cadastro</legend>
+
+            <div class="img-wrapper">
+                <p>Foto de Perfil</p>
+            </div>
+
+            <div class="container-entrada">
+                <input class="entrada" type="text" name="t-nome" id="nome" placeholder="Nome">
+            </div>
+
+            <div class="container-entrada">
+                <input class="entrada" type="text" name="t-sobrenome" id="sobrenome" placeholder="Sobrenome">
+            </div>
+
+            <div class="container-entrada">
+                <input class="entrada" type="email" name="t-email" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="container-entrada">
+                <input class="entrada" type="password" name="t-senha" id="senha" placeholder="Senha">
+            </div>
+
+            <div class="container-sexo">
+                <div>
+                    <input type="radio" name="sexo" id="masculino">
+                    <label class="sexo" for="masculino">Masculino</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="sexo" id="feminino">
+                    <label class="sexo" for="feminino">Feminino</label>
+                </div>
+            </div>
+
+            <div class="container-botao">
+                <input class="botao-form botao-limpar" type="submit" value="Enviar">
+
+                <input class="botao-form botao-enviar" type="reset" value="Limpar">
+            </div>
+
+            <div>
+                <input class="check" type="checkbox" name="t-slc" id="selecao" checked>
+                <label class="selecao" for="selecao">Lembre de Mim</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
