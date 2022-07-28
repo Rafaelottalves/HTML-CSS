@@ -80,6 +80,11 @@ body {
     background-color: rgb(101, 70, 211);
 }
 
+.header-cadastro a:hover {
+    color: rgb(230, 230, 230);
+    background-color: rgb(87, 60, 185);
+}
+
 .container-form {
     width: 100%;
 
@@ -150,4 +155,9 @@ body {
 
     color: white;
     background-color: rgb(101, 70, 211);
+}
+
+.botao:hover {
+    color: rgb(230, 230, 230);
+    background-color: rgb(87, 60, 185);
 }
