@@ -10,10 +10,86 @@
     <title>Pratica 025 - Formulario</title>
 </head>
 <body>
-    <div>
-        <div></div>
-        
-        <div></div>
+    <div class="bloco-cadastro">
+        <div class="fundo-wrapper">
+            <img src="./img/fundo-login.svg" alt="">
+        </div>
+
+        <div class="container-cadastro">
+            <div class="header-cadastro">
+                <h1>Cadastre-se</h1>
+
+                <a href="#">Entrar</a>
+            </div>
+
+            <form class="container-form" autocomplete="off">
+                <div class="container-entrada">
+                    <div>
+                        <label class="titulo-entrada" for="nome">Primeiro Nome</label> <br>
+                        <input class="entrada" type="text" name="t-nome" id="nome" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div>
+                        <label class="titulo-entrada" for="sobrenome">Sobrenome</label> <br>
+                        <input class="entrada" type="text" name="t-sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                    </div>
+                </div>
+
+                <div class="container-entrada">
+                    <div>
+                        <label class="titulo-entrada" for="email">E-mail</label> <br>
+                        <input class="entrada" type="email" name="t-email" id="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    
+                    <div>
+                        <label class="titulo-entrada" for="cel">Celular</label> <br>
+                        <input class="entrada" type="tel" name="t-cel" id="celular" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                </div>
+
+                <div class="container-entrada">
+                    <div>
+                        <label class="titulo-entrada" for="senha">Senha</label> <br>
+                        <input class="entrada" type="password" name="t-senha" id="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div>
+                        <label class="titulo-entrada" for="c-senha">Confirme sua Senha</label> <br>
+                        <input class="entrada" type="password" name="t-c-senha" id="c-senha" placeholder="Digite sua senha de novo" required>
+                    </div>
+                </div>
+
+                <div class="container-opc">
+                    <label class="titulo-opc" for="opc-generos">Gênero</label>
+                    
+                    <div class="opcs">
+                        <span>
+                            <input type="radio" name="genero" id="feminino">
+                            <label for="feminino">Feminino</label>
+                        </span>
+                        
+                        <span>
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </span>
+                        
+                        <span>
+                            <input type="radio" name="genero" id="outros">
+                            <label for="outros">Outros</label>
+                        </span>
+                        
+                        <span>
+                            <input type="radio" name="genero" id="n-dizer">
+                            <label for="n-dizer">Prefiro não dizer</label>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="container-botao">
+                    <input class="botao" type="submit" value="Continuar">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
