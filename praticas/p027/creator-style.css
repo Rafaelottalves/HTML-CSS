@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: rgb(17, 16, 16);
+    overflow-x: hidden;
+}
+
+.header-pag {
+    width: 100%;
+    height: 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+}
+
+.titulo-princ {
+    margin-left: 50px;
+
+    font-size: 1.2rem;
+    font-style: italic;
+
+    text-transform: uppercase;
+
+    color: rgb(20, 20, 20);
+}
+
+.titulo-princ h1::after {
+    content: 'Free';
+
+    margin-left: 2px;
+    padding: 2px;
+    
+    font-size: .9rem;
+    text-transform: capitalize;
+    vertical-align: text-top;
+
+    background-color: yellow;
+}
+
+.container-item-header {
+    width: 780px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.naveg {
+    margin-right: 50px;
+}
+
+.naveg a {
+    padding: 5px 3px;
+
+    font-size: 1.2rem;
+    letter-spacing: .7px;
+    color: rgb(20, 20, 20);
+}
+
+.naveg a + a {
+    margin-left: 25px;
+}
+
+.naveg a:hover {
+    border-bottom: 3px solid rgb(192, 47, 22);
+}
+
+.contaier-icones {
+    margin-right: 70px;
+}
+
+.contaier-icones i {
+    font-size: 1.7rem;
+
+    color: rgb(20, 20, 20);
+}
+
+.contaier-icones a + a {
+    margin-left: 20px;
+}
+
+.contaier-icones i:hover {
+    color: rgb(11, 167, 11);
+}
+
+.container-menu input {
+    display: none;
+
+    position: absolute;
+
+    top: 33px;
+    right: 30px;
+}
+
+.container-menu input:checked ~ .menu-retratil {
+    transform: translateX(-280px);
+    transition: transform .5s ease-in-out;
+}
+
+.container-menu input:checked ~ .menu-hamb {
+    z-index: 10;
+}
+
+.menu-hamb {
+    position: absolute;
+
+    top: 32px;
+    right: 55px;
+
+    transition: .4s;
+
+    cursor: pointer;
+}
+
+.menu-hamb div {
+    width: 30px;
+    height: 5px;
+
+    transition: .3s ease-in;
+
+    border-radius: 3px;
+    background-color: rgb(20, 20, 20);
+}
+
+.menu-hamb div + div {
+    margin-top: 3px;
+}
+
+.container-menu input:checked ~ .menu-hamb {
+    transform: translateX(40px);
+}
+
+.container-menu input:checked ~ .menu-hamb div:first-child {
+    transform: translateY(8px) rotateZ(45deg);
+}
+
+.container-menu input:checked ~ .menu-hamb div:nth-child(2) {
+    display: none;
+}
+
+.container-menu input:checked ~ .menu-hamb div:last-child {
+    transform: rotateZ(-45deg);
+}
+
+.menu-retratil {
+    width: 280px;
+    height: 100vh;
+
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+    position: absolute;
+    top: 0;
+    right: -280px;
+
+    transition: transform .43s ease-in-out;
+    box-shadow: -7px 11px 17px #00000026;
+
+    background-color: white;
+}
+
+.menu-retratil h2 {
+    margin-bottom: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgb(20, 20, 20);
+}
+
+.container-img {
+    width: 85%;
+    height: 89%;
+
+    margin: 0 auto;
+    padding-left: 5px;
+
+    overflow: auto;
+    direction: rtl;
+}
+
+.container-img::-webkit-scrollbar {
+    width: 4px;
+
+    background-color: rgb(226, 226, 226);
+}
+
+.container-img::-webkit-scrollbar-thumb {
+    background-color: rgb(223, 136, 165);
+}
+
+.container-img div + div {
+    margin-top: 10px;
+}
+
+.container-img div img {
+    width: 100%;
+    height: 100%;
+}
+
+.capa-pag {
+    width: 100%;
+    height: 86vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('img/sala-capa-4.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa-pag h2 {
+    font-size: 6rem;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.capa-pag p {
+    width: 600px;
+
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+    text-align: justify;
+}
+
+.capa-pag a {
+    margin-top: 30px;
+
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    transition: .2s ease-in-out;
+
+    color: white;
+    background-color: #50BA87;   
+}
+
+.capa-pag a:hover {
+    background-color: rgb(219, 66, 66);
+}
