@@ -46,9 +46,6 @@
     .naveg {
         display: none;
     }
-    .container-tituloGeral {
-        width: 360px;
-    }
     input#check:checked ~ .naveg {
         display: block;
     }
@@ -61,6 +58,9 @@
         text-align: center;
         display: block;
         background-color: rgb(36, 36, 36);
+    }
+    .container-tituloGeral {
+        width: 360px;
     }
     .container-capa {
         width: 360px;
@@ -78,5 +78,15 @@
         height: 40px;
 
         font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container-tituloGeral {
+        width: 250px;
+    }
+    .container-capa {
+        width: 280px;
+        height: 200px;
     }
 }
