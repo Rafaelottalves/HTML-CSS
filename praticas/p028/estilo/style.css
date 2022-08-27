@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+ * {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+
+.header {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+
+    border-bottom: 2px solid rgb(29, 28, 28);
+}
+
+.container-tituloGeral {
+    width: 1000px;
+
+    margin: 0 auto;
+    padding: 50px 0px 15px 0px;
+
+    border-bottom: 2px solid rgb(29, 28, 28);
+}
+
+.container-tituloGeral h1 {
+    text-align: center;
+    font-size: 2.8rem;
+
+    color: rgb(211, 211, 211);
+}
+
+.menu-ham {
+    display: none;
+}
+
+input#check {
+    display: none;
+}
+
+.naveg {
+    width: 730px;
+
+    margin: 0 auto 20px auto;
+    padding: 5px 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.naveg a {
+    padding: 10px 25px;
+
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+
+    color: rgb(218, 218, 218);
+    /* background: rgb(109, 109, 109); */
+}
+
+.naveg a:hover {
+    color: white;
+}
+
+.container-capa {
+    width: 1000px;
+    height: 500px;
+
+    margin: 0 auto;
+
+    background-color: rgb(29, 27, 27);
+    background-image: url('../img/capa.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 3px;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.form {
+    text-align: center;
+}
+
+.container-form {
+    margin-top: 30px;
+}
+
+.container-form > div {
+    margin-bottom: 5px;
+}
+
+.container-form > div > label {
+    font-size: 1.2rem;
+    letter-spacing: .9px;
+
+    color: rgb(190, 190, 190);
+}
+
+.container-form > input {
+    width: 450px;
+    height: 45px;
+
+    font-size: 1.3rem;
+    text-align: center;
+
+    border: none;
+    border-radius: 3px;
+
+    color: rgb(139, 139, 139);
+    background-color: rgb(27, 25, 25);
+}
+
+.botao {
+    width: 150px;
+    height: 40px;
+
+    margin-top: 35px;
+
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: .9px;
+
+    border: none;
+    cursor: pointer;
+
+    color: rgb(139, 139, 139);
+    background-color: rgb(27, 25, 25)
+}
+
+.botao:hover {
+    background-color: rgb(7, 7, 7);
+}
