@@ -41,28 +41,42 @@
         padding: 20px 0px 15px 0px;
     }
     .container-tituloGeral h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .naveg {
         display: none;
     }
-    
-    .naveg a {
-
-    }
     .container-tituloGeral {
-        width: 300px;
+        width: 360px;
+    }
+    input#check:checked ~ .naveg {
+        display: block;
+    }
+    input#check:checked ~ .naveg a {
+        display: block;
+    }
+    .menu-ham {
+        margin: 10px 0px;
+        padding: 10px;
+        text-align: center;
+        display: block;
+        background-color: rgb(36, 36, 36);
     }
     .container-capa {
-        width: 280px;
-        height: 200px;
+        width: 360px;
+        height: 250px;
     }
     .container-form > input {
         width: 90%;
         height: 35px;
     }
+    .container-form > div > label {
+        font-size: 1.1rem;
+    }
     .botao {
         width: 130px;
         height: 40px;
+
+        font-size: 1.1rem;
     }
 }
