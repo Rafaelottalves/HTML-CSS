@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(to bottom, #5D3885, #4A9E9D);
+}
+
+.container-geral {
+    width: 970px;
+    height: 350px;
+
+    display: flex;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.container-esquerdo {
+    width: 50%;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.desc-form h1 {
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+.desc-form p {
+    width: 470px;
+
+    margin-left: 15px;
+    margin-bottom: 20px;
+
+    font-size: 1.05em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.container-input-geral {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.container-input {
+    width: 465px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+    background-color: #5F2C82;
+}
+
+.container-input i {
+    margin: 0px 10px 0px 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.container-input input {
+    width: 420px;
+    height: 35px;
+
+    padding-left: 5px;
+
+    font-size: 1em;
+    border: none;
+    border-radius: 7px;
+
+    background-color: #94CFCD;
+}
+
+.container-input input:focus {
+    border: 2px solid black;
+}
+
+.container-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.container-submit input {
+    width: 465px;
+    height: 40px;
+
+    margin-bottom: 10px;
+
+    font-size: 1.05em;
+
+    border: none;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: #4B9199;
+}
+
+.container-submit input:hover {
+    background-color: #2D6462;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn a {
+    padding: 11px 164px;
+
+    border-radius: 7px;
+    border: 1px solid #4B9199;
+
+    color: #2D7B9A;
+}
+
+.container-btn a:hover {
+    background-color: #6CD3CF;
+}
+
+.container-btn a i {
+    margin-left: 1px;
+    font-size: .7em;
+    vertical-align: text-top;
+}
+
+.container-direito {
+    width: 50%;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-image: url('img/capa-direita.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
