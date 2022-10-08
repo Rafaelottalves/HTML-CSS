@@ -1,0 +1,6 @@
+function verificar() {
+    let entradaEmail = document.getElementById('t-email').value
+    let entradaSenha = document.getElementById('t-senha').value
+
+    alert(entradaEmail)
+}

@@ -25,7 +25,7 @@
                     <div class="container-input">
                         <!-- icone -->
                         <i class="fa-solid fa-user"></i>
-                        <input type="email" id="" placeholder="Seu e-mail">
+                        <input type="email" id="t-email" placeholder="Seu e-mail" required>
                     </div>
                 </div>
 
@@ -33,12 +33,12 @@
                     <div class="container-input">
                         <!-- icone -->
                         <i class="fa-solid fa-unlock-keyhole"></i>
-                        <input type="password" id="" placeholder="Sua senha">
+                        <input type="password" id="t-senha" placeholder="Sua senha" required minlength="8" maxlength="16">
                     </div>
                 </div>
 
                 <div class="container-submit">
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" id="botao-submit" onmouseover="entrou()" onmouseout="saiu()">
                 </div>
                 
                 <div class="container-btn">
@@ -51,5 +51,7 @@
 
         <div class="container-direito"><!--Background--></div>
     </section>
+
+    <script src="codigo.js"></script>
 </body>
 </html>
