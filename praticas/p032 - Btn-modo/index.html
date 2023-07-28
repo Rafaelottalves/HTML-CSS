@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .main-container {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: silver;
+    }
+
+    .button-container {
+      width: 220px;
+      height: 85px;
+      
+      position: relative;
+      overflow: hidden;
+      
+      border-radius: 40px;
+      box-shadow: inset 0px 1px 8px 6px rgba(0, 0, 0, 0.5);
+      background-color: rgb(67, 152, 212);
+    }
+
+    .main-circle {
+      width: 68px;
+      height: 68px;
+      
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      
+      transform: translateY(-50%);
+      border-radius: 50%;
+      
+      box-shadow: inset -2px -1px 6px 1px rgba(0, 0, 0, 0.40);
+      background-color: rgb(255, 224, 22);
+      z-index: 3;
+    }
+
+    .main-circle::after {
+      content: "";
+      
+      width: 68px;
+      height: 68px;
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      border-radius: 50%;
+      box-shadow: 2px 1px 8px 3px rgba(0, 0, 0, 0.40);
+    }
+
+    .centering-container {
+      width: inherit; height: inherit; border-radius: inherit;
+      position: relative;
+    }
+
+    .circle-glow {
+      position: absolute;
+      top: 50%;
+      left: 49.6%;
+      transform: translate(-50%, -50%);
+      
+      border-radius: 50%;
+    }
+
+    .circle-glow-1 {
+      width: 130px;
+      height: 130px;
+      
+      border: 30px solid rgba(255, 255, 255, .350);
+      box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, .200);
+    }
+
+    .circle-glow-2 {
+      width: 68px;
+      height: 68px;
+
+      box-shadow: 0px 0px 0px 31.5px rgba(255, 255, 255, .450);
+    }
+
+    .cloud-container-1 {
+      position: absolute;
+      right: -100px;
+      bottom: -45px;
+      transform: rotate(-13deg);
+    }
+
+    .cloud-container-1 img {
+      width: 320px;
+      height: 100px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <section class="main-container">  
+    <div class="button-container">
+      <div class="main-circle">
+        <div class="centering-container">
+          <div class="circle-glow circle-glow-1">
+            <div class="circle-glow circle-glow-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cloud-container-1">
+        <img src="./vetor-de-ilustracao-de-nuvem-branca_252398-original.png" alt="">
+      </div>
+      
+      <div class="cloud-container-1">
+        <img src="./vetor-de-ilustracao-de-nuvem-branca_252398-original.png" alt="">
+      </div>
+    <div>
+  </section>  
+</body>
+</html>
