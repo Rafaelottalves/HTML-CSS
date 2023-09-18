@@ -10,3 +10,37 @@
     text-decoration: none;
     list-style: none;
 }
+
+body {
+    display: flex;
+}
+
+header {
+    width: 14%;
+    height: 100vh;
+
+    background-color: #15202B;
+}
+
+.logo-container {
+
+}
+
+.menu-options-container  {
+
+}
+
+.menu-options-list {
+    
+}
+
+.accounts-container {
+
+}
+
+main {
+    width: 86%;
+    height: 100vh;
+
+    background-color: rgb(143, 224, 226);
+}
