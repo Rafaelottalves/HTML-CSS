@@ -1,6 +1,9 @@
 * {
     --header-color: rgba(40, 58, 90, 0.9);
     --header-height: 60px;
+    --background-main-menu: rgba(40, 58, 90, 0.9);
+    --menu-option-color: #37517e;
+    --border-menu-option: 2px solid #47b2e4;
 }
 
 body {
@@ -70,49 +73,106 @@ header {
 
     z-index: -1;
 
+    opacity: 0;
+    display: none;
+
+    transition: .2s ease;
+
     position: absolute;
     top: 0px;
     left: 0px;
 
-    padding-top: 15px;
+    padding-top: 25px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: rgba(0, 0, 0, 0.405);
+    background-color: var(--background-main-menu);
 }
 
 .container-menu-items {
     width: 95vw;
-    height: 85vh;
+    height: 88vh;
 
-    padding-top: 25px;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 10px;
+
+    overflow-y: scroll;
 
     background-color: white;
 }
 
-.nav-menu {
-    /* display: none; */
-}
-
-.nav-menu-list li {
+.nav-menu-list > li {
     width: 100%;
     height: 100%;
     margin-bottom: 1px;
 }
 
-.nav-menu-list li a {
+.nav-menu-list > li a {
     width: 100%;
     padding: 12px 25px;
 
+    font-size: .95em;
+
     display: block;
-    color: blue;
+    color: var(--menu-option-color);
+}
+
+.container-drop {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.drop-down-option {
+    
+}
+
+.arrow-container {
+    margin-right: 30px;
+    display: flex;
+}
+
+.drop-down-option .arrow-container div {
+    width: 8px;
+    height: 1px;
+
+    background-color: var(--menu-option-color);
+}
+
+.drop-down-option .arrow-container div:first-child {
+    transform: translate(2px, 0px) rotate(45deg);
+}
+
+.drop-down-option .arrow-container div:last-child {
+    transform: rotate(-45deg);
 }
 
 .drop-down-list {
+    width: 320px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px auto 5px auto;
+    padding-left: 0px;
+
+    background-color: rgb(255, 252, 252);
+    box-shadow: 0px 0px 13px 3px #00000017;;
+}
+
+.deep-drop-down-option > a {
+
+}
+
+.container-deep-drop {
+
+}
+
+.arrow-deep-container {
+    
+}
+
+.deep-drop-down-list {
     display: none;
 }
 
@@ -122,6 +182,20 @@ header {
 }
 
 .nav-menu-list > .getStarted-option a {
-    border: 2px solid blue;
+    font-weight: bold;
+    border: var(--border-menu-option);
     border-radius: 30px;
+}
+
+
+/* estilos interativos */
+
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visibility {
+    opacity: 1;
 }

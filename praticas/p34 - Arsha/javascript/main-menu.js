@@ -1,4 +1,6 @@
 let menuHamburguer = document.querySelector('.container-menu-hamburguer')
+let blocoMenuItems = document.querySelector('.bloco-menu-items')
+let containerMenuItems = document.querySelector('.container-menu-items')
 let transformed = false
 
 function menuHamburguerChangeToNormal(menuList) {
@@ -37,4 +39,10 @@ menuHamburguer.onclick = function() {
     let menuList = document.querySelectorAll('.container-menu-hamburguer > div')
 
     transformed == true ? menuHamburguerChangeToNormal(menuList) : menuHamburguerChange(menuList)
+
+    blocoMenuItems.classList.toggle('show')
+
+    setTimeout(() => {
+        blocoMenuItems.classList.toggle('visibility')
+    })
 }
