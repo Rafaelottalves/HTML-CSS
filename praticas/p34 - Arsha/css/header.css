@@ -74,7 +74,7 @@ header {
     top: 0px;
     left: 0px;
 
-    padding-top: 35px;
+    padding-top: 15px;
 
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ header {
 
 .container-menu-items {
     width: 95vw;
-    height: 88vh;
+    height: 85vh;
 
     padding-top: 25px;
 
