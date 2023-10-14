@@ -149,6 +149,7 @@ header {
 .drop-down-list {
     width: 320px;
     height: 230px;
+    /* height: 450px; */
 
     display: flex;
     flex-direction: column;
@@ -156,24 +157,43 @@ header {
     margin: 10px auto 5px auto;
     padding-left: 0px;
 
-    background-color: rgb(255, 252, 252);
-    box-shadow: 0px 0px 13px 3px #00000017;;
-}
-
-.deep-drop-down-option > a {
-
+    background-color: rgb(193, 39, 39);
+    box-shadow: 0px 0px 13px 3px #00000017;
 }
 
 .container-deep-drop {
-
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
 }
 
-.arrow-deep-container {
-    
+.arrow-deep-container > div {
+    width: 8px;
+    height: 1px;
+
+    background-color: var(--menu-option-color)  ;
+}
+
+.arrow-deep-container > div:first-child {
+    transform: translate(0px, -2px) rotate(45deg);
+}
+
+.arrow-deep-container > div:last-child {
+    transform: translate(0px, 2px) rotate(-45deg);
 }
 
 .deep-drop-down-list {
+    width: 280px;
+    height: 230px;
+
     display: none;
+    flex-direction: column;
+
+    margin: 10px auto 5px auto;
+    padding-left: 0px;
+
+    background-color: rgb(255, 252, 252);
+    box-shadow: 0px 0px 13px 3px #00000017;
 }
 
 .getStarted-option {
