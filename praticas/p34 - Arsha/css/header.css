@@ -22,7 +22,7 @@ header {
 
 .container-header-item {
     width: 100%;
-    max-width: 360px;
+    max-width: 0%;
     height: 100%;
 
     margin: 0 auto;
@@ -147,18 +147,21 @@ header {
 }
 
 .drop-down-list {
-    width: 320px;
-    height: 230px;
+    width: 90%;
+    height: 0px;
     /* height: 450px; */
 
-    display: flex;
+    display: none;
     flex-direction: column;
+    overflow: hidden;
 
     margin: 10px auto 5px auto;
     padding-left: 0px;
 
-    background-color: rgb(193, 39, 39);
-    box-shadow: 0px 0px 13px 3px #00000017;
+    background-color: white;
+    box-shadow: 0px 0px 15px 3px #0000001d;
+
+    transition: .01s ease;
 }
 
 .container-deep-drop {
@@ -183,17 +186,18 @@ header {
 }
 
 .deep-drop-down-list {
-    width: 280px;
-    height: 230px;
+    width: 90%;
+    height: 0px;
 
     display: none;
     flex-direction: column;
+    overflow: hidden;
 
     margin: 10px auto 5px auto;
     padding-left: 0px;
 
     background-color: rgb(255, 252, 252);
-    box-shadow: 0px 0px 13px 3px #00000017;
+    box-shadow: 0px 0px 15px 3px #0000001d;
 }
 
 .getStarted-option {
@@ -218,4 +222,16 @@ header {
 
 .visibility {
     opacity: 1;
+}
+
+.visible {
+    height: 215px;
+}
+
+.new-visible {
+    height: 445px;
+}
+
+.showDrop {
+    display: flex;
 }
