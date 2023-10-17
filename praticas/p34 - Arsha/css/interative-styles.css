@@ -1,0 +1,29 @@
+/* MENU */
+
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visibility {
+    opacity: 1;
+}
+
+/* DROP DOWN */
+
+.visible {
+    height: 215px;
+}
+
+.showDrop {
+    display: flex;
+}
+
+.new-visible {
+    height: 445px;
+}
+
+.change-color {
+    color: #47b2e4 !important;
+}
