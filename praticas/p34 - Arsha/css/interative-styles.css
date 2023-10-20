@@ -27,3 +27,11 @@
 .change-color {
     color: #47b2e4 !important;
 }
+
+.change-background {
+    background-color: #47b2e4 !important;
+}
+
+.Clientcolor {
+    filter: saturate(-1%) !important;
+}
