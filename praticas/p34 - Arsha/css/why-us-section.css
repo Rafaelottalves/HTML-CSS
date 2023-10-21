@@ -49,6 +49,7 @@
 .why-us-section-list > li > div:first-child {
     display: flex;
     margin-bottom: 15px;
+    user-select: none;
 }
 
 .why-us-section-list > li > div:first-child > h3 {
