@@ -35,3 +35,7 @@
 .Clientcolor {
     filter: saturate(-1%) !important;
 }
+
+.showCard {
+    height: inherit !important;
+}
