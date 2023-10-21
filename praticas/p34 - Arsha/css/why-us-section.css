@@ -1,0 +1,75 @@
+.why-us {
+    color: rgb(88, 88, 88);
+    background-color: #F3F5FA;
+}
+
+.why-us-section-image {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: red;
+}
+
+.why-us-section-image > img {
+    width: 280px;
+}
+
+.why-us-section-title {
+    padding: 20px 5px 5px 10px;
+}
+
+.why-us-section-title > h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color:   #37517E;
+}
+
+.why-us-section-title > p {
+    font-size: 1.1em;
+}
+
+.why-us-section-list {
+    padding: 10px 10px 0px 10px;
+}
+
+.why-us-section-list > li {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.why-us-section-list > li + li {
+    margin-top: 30px;
+}
+
+.why-us-section-list > li > div:first-child {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.why-us-section-list > li > div:first-child > h3 {
+    padding-right: 19px;
+    font-size: 1.1em;
+}
+
+.why-us-section-list > li > div:first-child > h3 > span {
+    margin-right: 5px;
+    font-size: 1.15em;
+}
+
+.why-us-section-list > li > div:first-child > img {
+    width: 10px;
+    height: 10px;
+
+    margin-top: 5px;
+}
+
+/* .why-us-section-list > li > div:last-child {
+    display: none;
+} */
+
+.why-us-section-list > li > div:last-child p {
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
