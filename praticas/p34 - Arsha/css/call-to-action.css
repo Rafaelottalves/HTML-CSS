@@ -1,0 +1,52 @@
+.call-to-action {
+    width: 100vw;
+    height: 500px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") center center;
+    background-size: cover;
+}
+
+.call-to-action > div > h3 {
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-size: 1.6em;
+
+    color: white;
+}
+
+.call-to-action > div > p {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: white;
+
+    margin-bottom: 30px;
+}
+
+.call-to-action > a {
+    width: 200px;
+    height: 50px;
+
+    display: block;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 1.1em;
+
+    border-radius: 30px;
+
+    color: white;
+    border: 2px solid white;
+}
