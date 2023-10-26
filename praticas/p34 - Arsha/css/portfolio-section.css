@@ -1,0 +1,38 @@
+.portfolio {
+    padding: 60px 12px 0px 12px;
+    background-color: white;
+}
+
+.portfolio-text-container {
+    margin-bottom: 40px;
+}
+
+.portfolio-text-container > div {
+    margin-bottom: 20px;
+}
+
+.portfolio-text-container > div > h2 {
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #37517E;
+}
+
+.portfolio-text-container > p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: center;
+    color:  rgb(88, 88, 88);
+}
+
+.portfolio-filters {
+    margin-bottom: 35px;
+    padding: 0px 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-filters > li {
+    font-size: 1.05em;
+}
