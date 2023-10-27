@@ -34,5 +34,63 @@
 }
 
 .portfolio-filters > li {
-    font-size: 1.05em;
+    font-size: 1em;
+    padding: 5px 20px;
+
+    border-radius: 20px;
+}
+
+.portfolio-filters > li:first-child {
+    color: white;
+    background-color: #47b2e4;
+}
+
+.portfolio-images {
+    position: relative;
+}
+
+.portfolio-images > div {
+    position: absolute;
+}
+
+.image-wrap-1 {
+    top: ;
+}
+
+.image-wrap-2 {
+    top: ;
+}
+
+.image-wrap-3 {
+    top: ;
+}
+
+.image-wrap-4 {
+    top: ;
+}
+
+.image-wrap-5 {
+    top: ;
+}
+
+.image-wrap-6 {
+    top: ;
+}
+
+.image-wrap-7 {
+    top: ;
+}
+
+.image-wrap-8 {
+    top: ;
+}
+
+.image-wrap-9 {
+    top: ;
+}
+
+.portfolio-images > div > img {
+    width: 100%;
+
+    margin-bottom: 20px;
 }
