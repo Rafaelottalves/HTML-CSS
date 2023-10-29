@@ -46,6 +46,7 @@
 }
 
 .portfolio-images {
+    /* height: 1200px; */
     position: relative;
 }
 
@@ -54,39 +55,39 @@
 }
 
 .image-wrap-1 {
-    top: ;
+    top: 0px;
 }
 
 .image-wrap-2 {
-    top: ;
+    top: 360px;
 }
 
 .image-wrap-3 {
-    top: ;
+    top: 610px;
 }
 
 .image-wrap-4 {
-    top: ;
+    top: 825px;
 }
 
 .image-wrap-5 {
-    top: ;
+    top: 1075px;
 }
 
 .image-wrap-6 {
-    top: ;
+    top: 1590px;
 }
 
 .image-wrap-7 {
-    top: ;
+    top: 4610px;
 }
 
 .image-wrap-8 {
-    top: ;
+    top: 2100px;
 }
 
 .image-wrap-9 {
-    top: ;
+    top: 2350px;
 }
 
 .portfolio-images > div > img {
