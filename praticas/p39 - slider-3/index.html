@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-slider {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .container-images {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+        }
+
+        .slider {
+            opacity: 0;
+            transition: opacity .2s;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .on {
+            opacity: 1;
+        }
+
+        #prev-button, #next-button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        #prev-button img, #next-button img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-slider">
+        <button id="prev-button">◀</button>
+
+        <div class="container-images">
+          <img src="https://source.unsplash.com/random/250x250/?beach" alt="girl" class="slider on">
+          <img src="https://source.unsplash.com/random/250x250/?animal" alt="girl" class="slider">
+        </div>
+
+        <button id="next-button">▶</button>
+    </div>
+
+    <script>
+        const slider = document.querySelectorAll('.slider');
+        const btnPrev = document.getElementById('prev-button');
+        const btnNext = document.getElementById('next-button');
+
+        let currentSlide = 0;
+
+        function hideSlider() {
+            slider.forEach(item => item.classList.remove('on'))
+        }
+
+        function showSlider() {
+            slider[currentSlide].classList.add('on')
+        }
+
+        function nextSlider() {
+                hideSlider()
+
+                if(currentSlide === slider.length -1) {
+                    currentSlide = 0
+                } else {
+                    currentSlide++
+                }
+                
+                showSlider()
+            }
+
+        function prevSlider() {
+            hideSlider()
+
+            if(currentSlide === 0) {
+                currentSlide = slider.length -1
+            } else {
+                currentSlide--
+            }
+
+            showSlider()
+        }
+
+        btnNext.addEventListener('click', nextSlider)
+        btnPrev.addEventListener('click', prevSlider)
+    </script>
+</body>
+</html>

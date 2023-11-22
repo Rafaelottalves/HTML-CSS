@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 1em 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .gallery-wrapper {
+            overflow-x: auto;
+        }
+
+        .arrow-left, .arrow-right {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: auto;
+            bottom: 0;
+            font-size: 20px;
+            line-height: 250px;
+            width: 40px;
+            color: #fff;
+            transition: all 600ms ease-in-out;
+            background: linear-gradient(to left, transparent 0%, black 200%);
+            opacity: 0.1;
+            cursor: pointer;
+            border: none;
+        }
+
+        .arrow-left:hover, .arrow-right:hover {
+            opacity: 1;
+        }
+
+        .arrow-right {
+            right: 0;
+            left: auto;
+            text-align: right;
+            background: linear-gradient(to right, transparent 0%, black 200%);
+        }
+
+        .gallery {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 15px;
+        }
+
+        .item {
+            width: 250px;
+            height: 250px;
+            flex-shrink: 0;
+            transition: all 600ms ease-in-out;
+            opacity: 0.5;
+        }
+
+        .current-item {
+            opacity: 1;
+        }
+
+        .gallery-wrapper::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button class="arrow-left control">◀</button>
+        <button class="arrow-right control">▶</button>
+
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="https://source.unsplash.com/random/250x250/?beach" alt="Beach Image" class="item current-item">
+                <img src="https://source.unsplash.com/random/250x250/?animal" alt="Animal Image" class="item current-item">
+                <img src="https://source.unsplash.com/random/250x250/?street" alt="Street Image" class="item current-item">
+                <img src="https://source.unsplash.com/random/250x250/?zoo" alt="Zoo Image" class="item current-item">
+                <img src="https://source.unsplash.com/random/250x250/?model" alt="Model Image" class="item current-item">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const controls = document.querySelectorAll(".control")
+        let currentItem = 0;
+        const items = document.querySelectorAll(".item")
+        const maxItems = items.length
+
+        controls.forEach((control) => {
+            control.addEventListener("click", (e) => {
+                isLeft = e.target.classList.contains("arrow-left")
+
+                if (isLeft) {
+                    currentItem -= 1
+                } else {
+                    currentItem += 1
+                }
+
+                if (currentItem >= maxItems) {
+                    currentItem = 0
+                }
+
+                if (currentItem < 0) {
+                    currentItem = maxItems - 1
+                }
+
+                items.forEach((item) => item.classList.remove("current-item"))
+
+                items[currentItem].scrollIntoView({behavior: "smooth", inline: "center"})
+
+                items[currentItem].classList.add("current-item")
+            });
+        });
+    </script>
+</body>
+</html>
