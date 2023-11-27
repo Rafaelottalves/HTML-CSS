@@ -22,9 +22,9 @@
     font-family: sans-serif;
 }
 
-/* body {
-    padding-top: 80px;
-} */
+body {
+    overflow-x: hidden;
+}
 
 /* Header */
 
@@ -74,8 +74,10 @@
 /* main: banner */
 
 .banner {
-    width: 100%;
+    width: 100vw    ;
     height: 100vh;
+
+    margin-bottom: 30px;
 
     display: flex;
     flex-direction: column;
@@ -94,16 +96,230 @@
     text-transform: uppercase;
 }
 
-.banner > h2 {
-    font-size: 1.7rem;
+/* main: banner - Component */
+
+.subtitle {
+    display: block;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle > h2 {
+    font-size: 1.6rem;
     text-transform: uppercase;
 }
 
-.banner > span {
-    width: 70px;
+.subtitle > span {
+    width: 60px;
     height: 5px;
 
     margin-top: 25px;
+    display: block;
 
     background-color: black;
+}
+
+/* main: articles*/
+
+.articles {
+    padding: 150px 0px;
+    background-color: rgb(243, 240, 240);
+}
+
+.cards-container {
+    width: 100vw;
+
+    margin-top: 70px;
+    /* padding: 0px 220px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* main: articles - component 1 */
+
+.card {
+    width: 300px;
+    height: 430px;
+
+    box-shadow: 4px 11px 13px 4px #00000030;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 50%;
+
+    background-color: black;
+    background-image: url('https://source.unsplash.com/random/?');
+    background-position: center;
+    background-size: cover;
+}
+
+/* main: articles - component 2 */
+
+.card-info {
+    width: 100%;
+    height: 50%;
+
+    padding: 0px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info > span {
+    width: 30px;
+    height: 3px;
+
+    margin-bottom: 15px;
+
+    display: block;
+    background-color: black;
+}
+
+.card-info > p {
+    text-align:  center;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    line-height: 1.5rem;
+}
+
+/* main: about */
+
+.about {
+    display: flex;
+
+}
+
+.img-wrapper-about {
+    width: 50%;
+    height: 500px;
+    background-image: url('https://source.unsplash.com/random/?');
+    background-position: center;
+    background-size: cover;
+}
+
+.about-info {
+    width: 50%;
+
+    padding: 0px 110px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 60px;
+}
+
+.text p {
+    line-height: 1.8rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+/* main: subscribe */
+
+.subscribe {
+    width: 100%;
+    height: 450px;
+
+    padding: 30px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(197, 190, 190);
+}
+
+.subscribe-title h2 {
+    margin-bottom: 10px;
+
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 450px;
+    height: 50px;
+
+    padding-left: 20px;
+    font-size: 1.1rem;
+
+    margin-bottom: 30px;
+}
+
+.form-button {
+    width: 130px;
+    height: 40px;
+
+    margin: 0 auto;
+
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Footer */
+
+#footer {
+    height: 100px;
+    padding: 0px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-medias > nav > ul, .sections > nav > ul {
+    display: flex;
+}
+
+.social-medias > nav > ul > li > a {
+    width: 25px;
+    height: 25px;
+
+    margin-right: 5px;
+
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(41, 38, 38)
+}
+
+.sections > nav > ul > li > a {
+    margin-right: 30px;
+
+    text-transform: uppercase;
+    font-size: .9rem;
+
+    color: black;
 }
