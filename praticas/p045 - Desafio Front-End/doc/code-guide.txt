@@ -1,0 +1,12 @@
+--> Namespaces <--
+
+c-: componente
+l-: layout (seções maiores)
+u-: utilitario
+s-: scope (escopo)
+is-: estado (esta)
+has-: condição (tem)
+js-: classe usada pelo javascript
+
+--> Personalizados <--
+
