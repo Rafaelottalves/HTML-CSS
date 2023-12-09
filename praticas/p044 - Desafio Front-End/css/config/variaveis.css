@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: white;
+    --secondary-color: #EEF2F4;
+    
+    --third-color: #5D41AC;
+    --fourth-color: #DAE0E3;
+    --fiveth-color: #707B81;
+    --sixth-color: #9ED8F9;
+    --seventh-color: #CDCCFD;
+    --eighth-color: #FF8052;
+    --nineth-color: #0DD1E3;
+    --tenth-color: #9E51BA;
+    --eleventh-color: #38BFA0;
+    --twelvth-color: #8A51BA;
+    --tirteenth-color: #4E5B61;
+}
