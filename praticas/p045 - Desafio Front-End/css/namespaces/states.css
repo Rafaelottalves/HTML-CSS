@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.is-marked {
+    background-color: var(--third-color);
+}

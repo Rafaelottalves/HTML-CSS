@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.l-main {
+    display: grid;
+    grid-template-areas: "side-menu main-content";
+    grid-template-columns: 20% 50%;
+}

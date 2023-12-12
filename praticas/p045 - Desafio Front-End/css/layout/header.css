@@ -1,29 +1,39 @@
 @charset "UTF-8";
 
 .l-header {
+    min-width: 100vw;
+    min-height: 80px;
 
+    padding: 0px 50px 0px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--primary-color);
 }
 
-.l-header__logo {
+.l-header__list-container {
+    min-width: 800px;
 
+    padding: 0px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .l-header__list {
-
+    display: flex;
 }
 
 .l-header__list__item {
+    margin-right: 35px;
 
-}
-
-.c-icon-container {
-
-}
-
-.c-info {
-
+    display: flex;
+    align-items: center;
 }
 
 .l-header__navbar {
-
+    margin-left: 30px;
 }

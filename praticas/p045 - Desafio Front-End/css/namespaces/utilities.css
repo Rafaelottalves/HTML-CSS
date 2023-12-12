@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.u-margin-right {
+    margin-right: 15px;
+}
+
+.u-border-top {
+    border-top: 1px solid var(--fourth-color);
+}
+
+.u-display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.u-font-size-smaller {
+    font-size: .9em;
+}
+
+.u-font-sieze-bigger {
+    font-size: 1.2em;
+}

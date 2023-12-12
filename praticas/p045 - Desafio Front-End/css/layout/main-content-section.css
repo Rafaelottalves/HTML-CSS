@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.l-main-content {
+    grid-area: main-content;
+}

@@ -6,92 +6,82 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-    <link rel="stylesheet" href="./css/central.css">
+    <link rel="stylesheet" href="./css/imports.css">
 
     <title>Document</title>
 </head>
 <body>
     <header class="l-header">
-        <a href="#" class="l-header__logo">
+        <a href="#">
             <img src="./img/logo.svg" alt="Logo do site: 'Kinvo'">
         </a>
 
-        <ul class="l-header__list">
-            <li class="l-header__list__item">
-                <div class="c-icon-container">
-                    <i class="fa-solid fa-sack-dollar"></i>
-                </div>
+        <div class="l-header__list-container">
+            <ul class="l-header__list">
+                <li class="l-header__list__item">
+                    <div class="c-icon-container u-margin-right">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                    </div>
 
-                <div class="c-info">
-                    <p>Saldo bruto</p>
-                    <p>130.521.230,02</p>
-                </div>
-            </li>
+                    <div class="c-info">
+                        <p class="u-font-size-smaller">Saldo bruto</p>
+                        <p class="u-font-sieze-bigger">130.521.230,02</p>
+                    </div>
+                </li>
 
-            <li class="l-header__list__item">
-                <div class="c-icon-container">
-                    <i class="fa-solid fa-arrow-up"></i>
-                </div>
+                <li class="l-header__list__item">
+                    <div class="c-icon-container u-margin-right">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
 
-                <div class="c-info">
-                    <p>Valor aplicado</p>
-                    <p>521.230,02</p>
-                </div>
-            </li>
+                    <div class="c-info">
+                        <p class="u-font-size-smaller">Valor aplicado</p>
+                        <p class="u-font-sieze-bigger">521.230,02</p>
+                    </div>
+                </li>
 
-            <li class="l-header__list__item">
-                <div class="c-icon-container">
-                    <i class="fa-solid fa-chart-column"></i>
-                </div>
+                <li class="l-header__list__item">
+                    <div class="c-icon-container u-margin-right">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
 
-                <div class="c-info">
-                    <p>Rentabilidade</p>
-                    <p>2,34%</p>
-                </div>
-            </li>
+                    <div class="c-info">
+                        <p class="u-font-size-smaller">Rentabilidade</p>
+                        <p class="u-font-sieze-bigger">2,34%</p>
+                    </div>
+                </li>
 
-            <li class="l-header__list__item">
-                <div class="c-icon-container">
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
+                <li class="l-header__list__item">
+                    <div class="c-icon-container u-margin-right is-marked">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
 
-                <div class="c-info">
-                    <p>Carteira</p>
-                    <p>Minha carteira</p>
-                </div>
-            </li>
-        </ul>
-
-        <div class="l-header__navbar">
-            <i class="fa-solid fa-bars"></i>
+                    <div class="c-info">
+                        <p class="u-font-size-smaller">Carteira</p>
+                        <p class="u-font-sieze-bigger">Minha carteira</p>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="l-header__navbar c-icon-container is-marked">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section>
+    <main class="l-main">
+        <section class="l-side-menu">
             <div>
                 <ul>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-bullseye"></i>    
-                        </div>
+                    <li class="c-generico u-border-top">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
 
-                        <div>
-                            <p>Resumo da carteira</p>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-angle-right"></i>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-circle-half-stroke"></i>
-                        </div>
-
-                        <div>
-                            <p>Meus produtos</p>
+                            <div class="c-info">
+                                <p>Resumo da carteira</p>
+                            </div>
                         </div>
 
                         <div>
@@ -99,13 +89,15 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-dollar-sign"></i>
-                        </div>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                            </div>
 
-                        <div>
-                            <p>Meus proventos</p>
+                            <div class="c-info">
+                                <p>Meus produtos</p>
+                            </div>
                         </div>
 
                         <div>
@@ -113,13 +105,31 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-puzzle-piece"></i>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+
+                            <div class="c-info">
+                                <p>Meus proventos</p>
+                            </div>
                         </div>
 
                         <div>
-                            <p>Classes de ativos</p>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </li>
+
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right is-marked">
+                                <i class="fa-solid fa-puzzle-piece"></i>
+                            </div>
+
+                            <div class="c-info">
+                                <p>Classes de ativos</p>
+                            </div>
                         </div>
 
                         <div>
@@ -131,27 +141,15 @@
 
             <div>
                 <ul>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-circle"></i>
-                        </div>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="u-margin-right account-info-icon">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
 
-                        <div>
-                            <p>Ação</p>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-angle-right"></i>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-circle"></i>
-                        </div>
-
-                        <div>
-                            <p>Fundo</p>
+                            <div class="c-info">
+                                <p>Ação</p>
+                            </div>
                         </div>
 
                         <div>
@@ -159,13 +157,15 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-circle"></i>
-                        </div>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="u-margin-right account-info-icon">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
 
-                        <div>
-                            <p>Fundo imobiliario</p>
+                            <div class="c-info">
+                                <p>Fundo</p>
+                            </div>
                         </div>
 
                         <div>
@@ -173,13 +173,31 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-circle"></i>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="u-margin-right account-info-icon">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+
+                            <div class="c-info">
+                                <p>Fundo imobiliario</p>
+                            </div>
                         </div>
 
                         <div>
-                            Fundo renda fixa
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </li>
+
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="u-margin-right account-info-icon">
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+
+                            <div class="c-info">
+                                Fundo renda fixa
+                            </div>
                         </div>
 
                         <div>
@@ -191,27 +209,15 @@
 
             <div>
                 <ul>
-                    <li>
-                        <div>
-                            <i class="fa-regular fa-gem"></i>
-                        </div>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-regular fa-gem"></i>
+                            </div>
 
-                        <div>
-                            <p>Rentabilidade real</p>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-angle-right"></i>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-tv"></i>
-                        </div>
-
-                        <div>
-                            <p>Projeção da carteira</p>
+                            <div class="c-info">
+                                <p>Rentabilidade real</p>
+                            </div>
                         </div>
 
                         <div>
@@ -219,13 +225,15 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-brands fa-chrome"></i>
-                        </div>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-solid fa-tv"></i>
+                            </div>
 
-                        <div>
-                            <p>Risco x retorno</p>
+                            <div class="c-info">
+                                <p>Projeção da carteira</p>
+                            </div>
                         </div>
 
                         <div>
@@ -233,13 +241,31 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-lock"></i>
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-brands fa-chrome"></i>
+                            </div>
+
+                            <div class="c-info">
+                                <p>Risco x retorno</p>
+                            </div>
                         </div>
 
                         <div>
-                            <p>Cobertura do FGC</p>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </li>
+
+                    <li class="c-generico">
+                        <div class="u-display-flex">
+                            <div class="c-icon-container u-margin-right">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
+
+                            <div class="c-info">
+                                <p>Cobertura do FGC</p>
+                            </div>
                         </div>
 
                         <div>
@@ -250,7 +276,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="l-main-content">
             <section>
                 <div>
                     <h2>Renda fixa</h2>

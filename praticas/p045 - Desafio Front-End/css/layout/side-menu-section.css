@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.l-side-menu {
+    grid-area: side-menu;
+    
+    background-color: var(--primary-color);
+}
+
+.account-info-icon {
+    font-size: .7em;
+    color: var(--third-color);
+}
