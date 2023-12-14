@@ -32,3 +32,28 @@
     
     border-bottom: 1px solid var(--fourth-color);
 }
+
+.c-main-title {
+    font-size: 1.6em;
+    text-transform: capitalize;
+}
+
+.c-info-card {
+    width: 190px;
+    height: 70px;
+
+    padding: 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    background-color: var(--primary-color);
+}
+
+.c-card-desc-container {
+    padding: 0px 10px;
+    border-left: 2px solid var(--fiveth-color);
+}

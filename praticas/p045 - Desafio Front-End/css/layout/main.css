@@ -3,5 +3,9 @@
 .l-main {
     display: grid;
     grid-template-areas: "side-menu main-content";
-    grid-template-columns: 20% 50%;
+    grid-template-columns: 20% 80%;
+}
+
+.l-main-content {
+    grid-area: main-content;
 }

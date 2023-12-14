@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.l-main-content__graphic-table {
+    width: 95%;
+    padding: 20px 40px 20px 20px;
+
+    margin: 20px auto;
+    border-radius: 10px;
+    
+    background-color: var(--primary-color);
+}
+
+.l-main-content__graphic-table-title {
+    margin-bottom: 20px;
+    color: var(--fiveth-color);
+}
+
+.l-main-content__table {
+    width: 100%;
+    height: 100%;
+
+    border-collapse: collapse;
+}
+
+.empty-cell {
+    width: 85px;
+    height: 50px;
+    
+    border: 1px solid var(--fiveth-color);
+}
+
+.number-cell {
+    padding-right: 10px;
+    text-align: right;
+    font-weight: bold;
+    color: var(--fiveth-color);
+}
+
+.month-cell {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--fiveth-color);
+}

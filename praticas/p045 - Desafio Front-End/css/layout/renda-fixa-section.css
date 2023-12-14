@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.l-main-content__renda-fixa {
+    min-height: 130px;
+}
+
+.l-main-content__renda-fixa__title-container {
+    padding: 30px 0px 0px 10px;
+}
+
+.l-main-content__renda-fixa__info-cards-list {
+    min-height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
