@@ -24,3 +24,11 @@
 .u-color-value {
     color: var(--third-color);
 }
+
+.u-color-purple {
+    color: var(--twelvth-color);
+}
+
+.u-color-ligh-blue {
+    color: var(--nineth-color);
+}

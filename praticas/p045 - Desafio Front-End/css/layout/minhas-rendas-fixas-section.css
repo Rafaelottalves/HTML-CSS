@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.l-main-content__minhas-rendas-fixas {
+    margin: 25px;
+
+    border-radius: 15px;
+    background-color: var(--primary-color);
+}
+
+.l-main-content__minhas-rendas-fixas__title {
+    padding: 20px 0px 20px 25px;
+    color: var(--fiveth-color);
+}
+
+.l-main-content__minhas-rendas-fixas__list__item{
+    padding: 25px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-bottom: 1px solid var(--fiveth-color);
+}
+
+.l-main-content__minhas-rendas-fixas__list__item:first-child {
+    border-top: 1px solid var(--fiveth-color);
+}
+
+.l-main-content__minhas-rendas-fixas__page-control {
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-main-content__minhas-rendas-fixas__page-control__back, .l-main-content__minhas-rendas-fixas__page-control__go,
+.l-main-content__minhas-rendas-fixas__page-control__page-number-list__page-one, .l-main-content__minhas-rendas-fixas__page-control__page-number-list__page-two {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.l-main-content__minhas-rendas-fixas__page-control__page-number-list {
+    display: flex;
+}
+
+.c {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    border: 1px solid var(--fiveth-color);
+}

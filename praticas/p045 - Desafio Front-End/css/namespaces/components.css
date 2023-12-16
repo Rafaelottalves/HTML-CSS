@@ -57,3 +57,28 @@
     padding: 0px 10px;
     border-left: 2px solid var(--fiveth-color);
 }
+
+.c-bloco {
+    padding: 10px;
+    border-radius: 15px;
+    
+    color: var(--fiveth-color);
+    border: 1px solid var(--fiveth-color);
+}
+
+.c-bloco-3 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.c-title-info {
+    display: flex;
+
+    color: var(--fiveth-color);
+}
+
+.c-position-info {
+    width: 200px;
+
+    margin-right: 40px;
+}
