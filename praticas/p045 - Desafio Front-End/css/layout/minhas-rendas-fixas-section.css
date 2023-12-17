@@ -38,6 +38,7 @@
 .l-main-content__minhas-rendas-fixas__page-control__page-number-list__page-one, .l-main-content__minhas-rendas-fixas__page-control__page-number-list__page-two {
     font-size: 1.2em;
     margin-right: 5px;
+    color: var(--fiveth-color);
 }
 
 .l-main-content__minhas-rendas-fixas__page-control__page-number-list {
